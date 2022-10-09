@@ -5,7 +5,7 @@ body {
 h1 {
 	color: black;
 	text-align: center;
-	padding-left: 100px;
+	padding-left: 500px;
 }
 
 img{
@@ -16,6 +16,6 @@ img{
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+	font-family: verdana;
+	font-size: 20px;
 }
