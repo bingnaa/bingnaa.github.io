@@ -51,6 +51,7 @@
 	var image =  document.getElementById("help");
 	var image2 =  document.getElementById("hypno");
 	var image3 =  document.getElementById("eaten");
+	var audio = new Audio("audio/521253__maugusto-sfx__eatingsfx.wav");
 	function changeImg(){
 		if (image.getAttribute('src') == "comics/Untitled_Artwork 19.png") {
 		    image.src = "comics/Untitled_Artwork 18.png"; 
@@ -68,6 +69,7 @@
 	function changeImg3(){
 		if (image3.getAttribute('src') == "comics/Untitled_Artwork 13.png") {
 		    image3.src = "comics/Untitled_Artwork 14.png"; 
+			audio.play();
 		} else {
 		    image3.src = "comics/Untitled_Artwork 13.png";
 		}
