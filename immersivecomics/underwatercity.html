@@ -17,9 +17,24 @@
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
 	<h1>Fun Time with Oswald!</h1>
 		<div class="row">
-		  <div class="column">
-		    <img src="comics/Untitled_Artwork 1.png">
-		  </div>
+			<div class="column">
+		   	 	<img src="comics/Untitled_Artwork 1.png">
+			</div>
 		</div>
+		<div class="row">
+			<div class="column">
+				 <img id = "help" src="comics/Untitled_Artwork 18.png" onclick = "changeImg()">
+			</div>
+		</div>
+<script>
+	var image =  document.getElementById("help");
+	function changeImg(){
+		if (image.getAttribute('src') == "comics/Untitled_Artwork 18.png") {
+		    image.src = "comics/Untitled_Artwork 19.png"; 
+		} else {
+		    image.src = "comics/Untitled_Artwork 18.png";
+		}
+	}
+</script>
 </body>
 </html>
