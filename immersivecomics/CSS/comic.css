@@ -29,6 +29,11 @@ p {
   padding: 5px;
 }
 
+#hoverI{
+	opacity: 0;
+}
+
 #hoverI:hover{
+	delay 100;
 	opactiy: 1;
 }
