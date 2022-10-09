@@ -28,7 +28,3 @@ p {
   flex: 33.33%;
   padding: 5px;
 }
-
-#hoverI:hover {
-	opacity: 0;
-}
