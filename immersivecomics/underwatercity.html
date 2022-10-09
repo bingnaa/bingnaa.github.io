@@ -52,7 +52,11 @@
 	var image =  document.getElementById("help");
 	var image2 =  document.getElementById("hypno");
 	var image3 =  document.getElementById("eaten");
+	document.getElementById("hoverI").onmouseover  = function() {mouseOver()};
+	document.getElementById("hoverI").onmouseout = function() {mouseOut()};
+	
 	var audio = new Audio("audio/521253__maugusto-sfx__eatingsfx.wav");
+	var audio2 = new Audio("audio/361367__pearcel__air-ocean-glitched.mp3");
 	function changeImg(){
 		if (image.getAttribute('src') == "comics/Untitled_Artwork 19.png") {
 		    image.src = "comics/Untitled_Artwork 18.png"; 
@@ -74,6 +78,12 @@
 		} else {
 		    image3.src = "comics/Untitled_Artwork 13.png";
 		}
+	}
+	function mouseOver() {
+		audio2.play();
+	}
+	function mouseOut() {
+		audio2.pause();
 	}
 </script>
 </body>
