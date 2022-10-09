@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="CSS/comic.css">
 </head>
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
-	<audio controls autoplay>
+	<audio controls autoplay id = "loud">
 		<source src="audio/391538__unlistenable__cheerful-song.wav" type="audio/wav">
 	</audio>
 	<h1>Fun Time with Oswald!</h1>
@@ -59,6 +59,9 @@
 	var audio2 = new Audio("audio/361367__pearcel__air-ocean-glitched.mp3");
 	var audio3 = new Audio("audio/572644__yakubova-studio__whispers.wav");
 	var audio4 = new Audio("audio/414259__antiprotector__ethereal-crying-2.wav");
+	
+	var audio5 = = document.getElementById("loud");
+	audio5.volume = .2;
 	function changeImg(){
 		if (image.getAttribute('src') == "comics/Untitled_Artwork 19.png") {
 		    image.src = "comics/Untitled_Artwork 18.png"; 
