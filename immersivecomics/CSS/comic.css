@@ -30,7 +30,7 @@ p {
 }
 
 #hoverI{
-	opacity: 0;
+	opacity: 0.25;
 }
 
 #hoverI:hover{
