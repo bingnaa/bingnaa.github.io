@@ -40,4 +40,5 @@ p {
 #hoverI:hover{
 	transition: 1s;
 	opacity: 1;
+	cursor: pointer;
 }
