@@ -29,11 +29,3 @@ p {
   padding: 5px;
 }
 
-.hover_img {
-    z-index: 99;
-}
-
-.hover_img img {
-    display:none;
-}
-
