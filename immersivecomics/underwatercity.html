@@ -58,11 +58,14 @@
 	var audio = new Audio("audio/521253__maugusto-sfx__eatingsfx.wav");
 	var audio2 = new Audio("audio/361367__pearcel__air-ocean-glitched.mp3");
 	var audio3 = new Audio("audio/572644__yakubova-studio__whispers.wav");
+	var audio4 = new Audio("audio/414259__antiprotector__ethereal-crying-2.wav");
 	function changeImg(){
 		if (image.getAttribute('src') == "comics/Untitled_Artwork 19.png") {
 		    image.src = "comics/Untitled_Artwork 18.png"; 
+			audio4.play();
 		} else {
 		    image.src = "comics/Untitled_Artwork 19.png";
+			audio4.pause();
 		}
 	}
 	function changeImg2(){
@@ -71,6 +74,7 @@
 			audio3.play();
 		} else {
 		    image2.src = "comics/Untitled_Artwork 17.png";
+			audio3.pause();
 		}
 	}
 	function changeImg3(){
@@ -79,6 +83,7 @@
 			audio.play();
 		} else {
 		    image3.src = "comics/Untitled_Artwork 13.png";
+			audio.pause();
 		}
 	}
 	function mouseOver() {
