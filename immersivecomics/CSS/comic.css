@@ -3,8 +3,9 @@ body {
 }
 
 h1 {
-  color: black;
-  text-align: center;
+	color: black;
+	text-align: center;
+	padding-left: 100px;
 }
 
 img{
