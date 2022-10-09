@@ -16,17 +16,16 @@ p {
 	font-size: 20px;
 }
 
-.row {
-  display: flex;
-}
-
+/* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  flex: 33.33%;
+  float: left;
+  width: 33.33%;
   padding: 5px;
 }
 
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
