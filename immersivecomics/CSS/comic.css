@@ -34,6 +34,6 @@ p {
 }
 
 #hoverI:hover{
-	delay 100;
+	transition: 0.3s;
 	opactiy: 1;
 }
