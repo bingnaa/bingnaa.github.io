@@ -36,9 +36,18 @@
 				 <img src="comics/Untitled_Artwork 15.png"  style="width:100%">
 			</div>
 		</div>
+		<div class="row">
+			<div class="column">
+				 <img id = "eaten" src="comics/Untitled_Artwork 13.png" onclick = "changeImg3()" style="width:100%">
+			</div>
+			<div class="column">
+				 <img src="comics/Untitled_Artwork 12.png"  style="width:100%">
+			</div>
+		</div>
 <script>
 	var image =  document.getElementById("help");
 	var image2 =  document.getElementById("hypno");
+	var image2 =  document.getElementById("eaten");
 	function changeImg(){
 		if (image.getAttribute('src') == "comics/Untitled_Artwork 19.png") {
 		    image.src = "comics/Untitled_Artwork 18.png"; 
@@ -51,6 +60,13 @@
 		    image2.src = "comics/Untitled_Artwork 16.png"; 
 		} else {
 		    image2.src = "comics/Untitled_Artwork 17.png";
+		}
+	}
+	function changeImg3(){
+		if (image3.getAttribute('src') == "comics/Untitled_Artwork 13.png") {
+		    image3.src = "comics/Untitled_Artwork 14.png"; 
+		} else {
+		    image3.src = "comics/Untitled_Artwork 13.png";
 		}
 	}
 </script>
