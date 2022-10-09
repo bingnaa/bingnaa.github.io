@@ -11,6 +11,13 @@ h1 {
 	padding-left: 80px;
 }
 
+img{
+	display: inline-block;
+	width: 350px;
+	height: 350px;
+	height: auto;
+}
+
 p {
 	font-family: verdana;
 	font-size: 20px;
