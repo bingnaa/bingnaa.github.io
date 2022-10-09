@@ -28,6 +28,14 @@
 				 <img src="comics/Untitled_Artwork 11.png"  style="width:100%">
 			</div>
 		</div>
+		<div class="row">
+			<div class="column">
+				 <img id = "help" src="comics/Untitled_Artwork 17.png" onclick = "changeImg2()" style="width:100%">
+			</div>
+			<div class="column">
+				 <img src="comics/Untitled_Artwork 15.png"  style="width:100%">
+			</div>
+		</div>
 <script>
 	var image =  document.getElementById("help");
 	function changeImg(){
@@ -35,6 +43,13 @@
 		    image.src = "comics/Untitled_Artwork 18.png"; 
 		} else {
 		    image.src = "comics/Untitled_Artwork 19.png";
+		}
+	}
+	function changeImg2(){
+		if (image.getAttribute('src') == "comics/Untitled_Artwork 17.png") {
+		    image.src = "comics/Untitled_Artwork 16.png"; 
+		} else {
+		    image.src = "comics/Untitled_Artwork 17.png";
 		}
 	}
 </script>
