@@ -1,1 +1,8 @@
-
+.logo{
+  position: absolute;
+  width: 200px;
+  height: 241px;
+  top: -56px;
+  margin-left: auto;
+  margin-right: auto;
+}
