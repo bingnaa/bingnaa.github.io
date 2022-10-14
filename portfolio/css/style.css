@@ -6,3 +6,39 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+h1{
+	position: absolute;
+  width: 446px;
+  height: 46px;
+  top: 160px;
+  
+  font-family: 'Gravitas One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #B494B3;
+}
+
+.flowersL{
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  left: -386px;
+  top: 84px;
+}
+
+.flowersR{
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  right: -386px;
+  top: 1185.7px;
+  transform: rotate(-161.67deg);
+}
