@@ -25,19 +25,8 @@ h1{
   color: #B494B3;
 }
 
-#flowersL{
-  position: absolute;
-  width: 1000px;
-  height: 1000px;
-  left: -386px;
-  top: 84px;
-}
-
-#flowersR{
-  position: absolute;
-  width: 1000px;
-  height: 1000px;
-  right: -386px;
-  top: 1185.7px;
-  transform: rotate(-161.67deg);
+#flowersBack {
+  background: url(img/untitled copy 2.png) left, url(img/Untitled-1 copy.png) right;
+  background-size: 1000px 1000px;
+  background-repeat: no-repeat;
 }
