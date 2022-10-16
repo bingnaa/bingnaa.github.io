@@ -3,10 +3,10 @@
 body{
   background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true) left, 
     url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/flowerback1.png?raw=true) right;
-  background-size: 700px 700px;
+  background-size: 1000px 1000px;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: top 84px left -386px right -386px;
+  background-position: top 100px left -500px right -386px;
 }
 
 #logo{
@@ -29,7 +29,7 @@ h1{
   font-size: 36px;
   line-height: 46px;
   
-  display: flex;
+  display: block;
   align-items: center;
   text-align: center;
   letter-spacing: -0.015em;
