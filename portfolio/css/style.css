@@ -12,13 +12,13 @@ body{
 
 ul {
 	list-style-type: none;
+	position: relative;
+ 	top: -70px;
 }
 
 .nav-item{
 	padding-right: 56px;
 	padding-left: 56px;
-	position: relative;
- 	top: -70px;
 }
 
 a{
