@@ -30,7 +30,7 @@ h1{
 #flowersBack {
   background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true) left, 
     url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/flowerback1.png?raw=true) right;
-  background-size: 1000px 1000px;
+  background-size: 600px 600px;
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
