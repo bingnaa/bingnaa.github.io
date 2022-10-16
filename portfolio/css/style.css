@@ -17,6 +17,8 @@ ul {
 .nav-item{
 	padding-right: 56px;
 	padding-left: 56px;
+	position: relative;
+ 	top: -86px;
 }
 
 a{
