@@ -26,8 +26,9 @@ h1{
 }
 
 #flowersBack {
-  background: url(untitled copy 2.png) left, url(Untitled-1 copy.png) right;
+  background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true) left, 
+    url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/flowerback1.png?raw=true) right;
   background-size: 1000px 1000px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
