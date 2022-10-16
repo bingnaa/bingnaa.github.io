@@ -13,6 +13,10 @@ body{
    display:inline-block;
 }
 
+.navbar-inner {
+    background:transparent;
+}
+
 #logo{
   width: 200px;
   height: 241px;
@@ -38,8 +42,4 @@ h1{
   text-align: center;
   letter-spacing: -0.015em;
   color: #B494B3;
-}
-
-.navbar-inner {
-    background:transparent;
 }
