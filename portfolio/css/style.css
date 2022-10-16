@@ -9,16 +9,12 @@ body{
   background-position: top 86px left -368px, top 86px right -368px;
 }
 
-.nav li{
-   display:inline-block;
+nav li{
+	background:transparent;
 }
 
 ul {
-  list-style-type: none;
-}
-
-.navbar-inner {
-    background:transparent;
+	list-style-type: none;
 }
 
 .nav-item{
