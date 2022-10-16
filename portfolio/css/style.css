@@ -9,8 +9,9 @@ body{
   background-position: top 86px left -368px, top 86px right -368px;
 }
 
-nav ul li{
-	background:transparent;
+nav{
+	background: transparent;
+	display: inline block;
 }
 
 ul {
