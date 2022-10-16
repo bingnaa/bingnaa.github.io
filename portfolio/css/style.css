@@ -10,10 +10,14 @@ body{
   background-position: top 86px left -368px, top 86px right -368px;
 }
 
-ul {
-	list-style-type: none;
+nav{
 	position: relative;
  	top: -70px;
+	
+}
+
+ul {
+	list-style-type: none;
 }
 
 .nav-item{
