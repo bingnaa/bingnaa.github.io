@@ -39,3 +39,7 @@ h1{
   letter-spacing: -0.015em;
   color: #B494B3;
 }
+
+.navbar-inner {
+    background:transparent;
+}
