@@ -9,6 +9,10 @@ body{
   background-position: top 86px left -368px, top 86px right -368px;
 }
 
+.nav li{
+   display:inline-block;
+}
+
 #logo{
   width: 200px;
   height: 241px;
