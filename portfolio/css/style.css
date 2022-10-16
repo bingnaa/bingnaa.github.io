@@ -10,7 +10,7 @@ body{
   background-position: top 86px left -368px, top 86px right -368px;
 }
 
-nav{
+.container-fluid{
 	display: flex;
 	position: relative;
  	top: -70px;!important 
