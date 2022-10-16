@@ -12,7 +12,7 @@ body{
 
 ul {
 	list-style-type: none;
-	display: inline;
+	display: inline-block;
 }
 
 .nav-item{
