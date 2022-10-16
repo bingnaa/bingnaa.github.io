@@ -10,13 +10,6 @@ body{
   background-position: top 86px left -368px, top 86px right -368px;
 }
 
-.container-fluid{
-	display: flex;
-	position: relative;
- 	top: -70px;!important 
-	
-}
-
 ul {
 	list-style-type: none;
 }
@@ -62,4 +55,11 @@ h1{
   text-align: center;
   position: relative;
   top: -56px;
+}
+
+.container-fluid{
+	display: flex;
+	position: relative;
+ 	top: -70px;
+	
 }
