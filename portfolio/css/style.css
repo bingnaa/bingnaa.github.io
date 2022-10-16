@@ -1,12 +1,12 @@
 @import url("http://fonts.cdnfonts.com/css/gravitas-one");
 
 body{
-  background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true) left, 
-    url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/flowerback1.png?raw=true) right;
+  background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true) left -368px, 
+    url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/flowerback1.png?raw=true) right -368px;
   background-size: 1000px 1000px;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: top 100px left -200px right -200px;
+  background-position: top 100px;
 }
 
 #logo{
