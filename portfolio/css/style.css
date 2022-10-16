@@ -57,7 +57,13 @@ h1{
   top: -56px;
 }
 
-nav{
+/* nav{
 	display: block;
 	top: 500px;
+} */
+
+.container-fluid{
+	display: flex;
+	position: relative;
+ 	top: -70px;
 }
