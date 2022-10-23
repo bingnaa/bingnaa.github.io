@@ -37,3 +37,14 @@ img{
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
