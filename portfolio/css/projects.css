@@ -8,7 +8,7 @@ body{
 
 section{
   position: relative;
-  width: 100%;
+  width: 100vh;
   height: 100vh;
   overflow: hidden;
   display: flex;
@@ -20,8 +20,8 @@ section: before{
   content: '';
   position: absolute;
   bottom: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vh;
+  height: 100vh;
 }
 
 section: after{
@@ -29,16 +29,16 @@ section: after{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vh;
+  height: 100vh;
 }
 
 section img{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vh;
+  height: 100vh;
   object-fit: cover;
   pointer-events: none;
 }
@@ -46,7 +46,7 @@ section img{
 #text{
   position: relative;
   color: #B494B3;
-  font-size: 5em;
+  font-size: 8em;
   font-family: 'Gravitas One', sans-serif;
   z-index: 1;
 }
