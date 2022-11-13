@@ -75,8 +75,8 @@
 	let text = document.getElementbyId("text");
 	
 	window.addEventListener('scroll', function(){
-		//var value = window.scrollY;
-		let value = window.pageYOffset;
+		var value = window.scrollY;
+		//let value = window.pageYOffset;
 		ground.style.top = value*.5 + 'px';
 		petal.style.top = -value*.5 + 'px';
 		stem.style.top = value*.5 + 'px';
