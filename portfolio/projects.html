@@ -76,6 +76,10 @@
 	
 	window.addEventListener('scroll', function()){
 		var value = window.scrollY;
-		bg.style.top = value + 'px';
+		ground.style.top = value*.5 + 'px';
+		petal.style.top = value*.5 + 'px';
+		stem.style.top = value*.5 + 'px';
+		bloom.style.top = value*.5 + 'px';
+		text.style.top = value*.5 + 'px';
 	}
 </script>
