@@ -13,7 +13,7 @@ min-height: 1500px;
 section{
   position: relative;
   width: 100%
-  height: 1500px;
+  height: 100vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@ section: before{
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 1500px;
+  height: 100%;
 }
 
 section: after{
@@ -34,7 +34,7 @@ section: after{
   top: 0;
   left: 0;
   width: 100%;
-  height: 1500px;
+  height: 100%;
 }
 
 section img{
