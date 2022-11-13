@@ -45,3 +45,10 @@ section img{
   object-fit: cover;
   pointer-events: none;
 }
+
+#text{
+  position: relative;
+  color: #B494B3;
+  font-size: 80em;
+  z-index: 1;
+}
