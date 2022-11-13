@@ -66,4 +66,16 @@
 </body>
 </html>
 
-<script> Splitting(); </script>
+<script> 
+	Splitting();
+	let ground = document.getElementId("ground");
+	let petal = document.getElementId("petal");
+	let stem = document.getElementId("stem");
+	let bloom = document.getElementId("bloom");
+	let text = document.getElementId("text");
+	
+	window.addEventListener('scroll', function()){
+		var value = window.scrollY;
+		bg.style.top = value + 'px';
+	}
+</script>
