@@ -5,6 +5,11 @@ img{
   margin: 0;
   padding: 0;
 }
+
+body{
+min-height: 1500px;
+}
+
 section{
   position: relative;
   width: 100%
