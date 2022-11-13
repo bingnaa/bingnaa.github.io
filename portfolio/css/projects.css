@@ -49,6 +49,7 @@ section img{
 #text{
   position: relative;
   color: #B494B3;
-  font-size: 20em;
+  font-size: 10em;
+  font-family: 'Gravitas One', sans-serif;
   z-index: 1;
 }
