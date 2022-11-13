@@ -7,14 +7,13 @@ img{
 }
 
 body{
-  min-height: 1000px;
 }
 
 section{
   position: relative;
-  width: 100vh;
+  width: 100%;
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,8 +23,8 @@ section: before{
   content: '';
   position: absolute;
   bottom: 0;
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 section: after{
@@ -33,16 +32,16 @@ section: after{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 section img{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   pointer-events: none;
 }
