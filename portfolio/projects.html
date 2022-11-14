@@ -65,20 +65,20 @@
 		</div> -->
 	<script type = "text/javascript"> 
 // 	Splitting();
-	let ground = document.getElementbyId("ground");
-	let petal = document.getElementbyId("petal");
-	let stem = document.getElementbyId("stem");
-	let bloom = document.getElementbyId("bloom");
-	let text = document.getElementbyId("text");
+	let gro = document.getElementbyId("ground");
+	let pet = document.getElementbyId("petal");
+	let ste = document.getElementbyId("stem");
+	let blo = document.getElementbyId("bloom");
+	let tex = document.getElementbyId("text");
 	
 	window.addEventListener('scroll', function(){
 		var value = window.scrollY;
-		//var value = window.pageYOffset;
-		ground.style.top = value*.5 + 'px';
-		petal.style.top = -value*.5 + 'px';
-		stem.style.top = value*.5 + 'px';
-		bloom.style.top = -value*.5 + 'px';
-		text.style.top = value*.5 + 'px';
+		
+		gro.style.top = value*2 + 'px';
+		pet.style.top = value*2 + 'px';
+		ste.style.top = value*2 + 'px';
+		blo.style.top = value*2 + 'px';
+		tex.style.top = value*2 + 'px';
 	});
 	</script>
 </body>
