@@ -17,11 +17,6 @@ iframe{
   display: block
 }
 
-#frame{
-  position: fixed;
-  left: 50%;
-}
-
 #caption{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
