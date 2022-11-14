@@ -8,6 +8,8 @@ h2{
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
+  
+  margin: auto;
 }
 
 h3{
@@ -17,6 +19,7 @@ h3{
   color: #B0C252;
   font-weight: 500;
   line-height: 18px;
+  margin: auto;
 }
 
 section img{
