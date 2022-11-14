@@ -1,5 +1,8 @@
-h1{
-  top: 0;
+h2{
+  position: relative;
+  color: #B494B3;
+  font-size: 5em;
+  font-family: 'Gravitas One', sans-serif;
 }
 
 section img{
