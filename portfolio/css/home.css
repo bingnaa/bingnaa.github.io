@@ -13,7 +13,8 @@ body{
   align-items: center;
 } */
 iframe{
-  align=center;
+  align: center;
+  display:block
 }
 
 #frame{
