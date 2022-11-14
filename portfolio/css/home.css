@@ -14,8 +14,8 @@ body{
 } */
 
 iframe{
-    display: block;
-    border-style:none;
+  display: block;
+  margin:auto;
 }
 
 #caption{
