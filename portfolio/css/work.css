@@ -4,6 +4,19 @@ h2{
   font-size: 5em;
   font-family: 'Gravitas One', sans-serif;
   text-align: center;
+  
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+h3{
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 15px;
+	color: #B0C252;
+	font-weight: 500;
+	line-height: 18px;
 }
 
 section img{
