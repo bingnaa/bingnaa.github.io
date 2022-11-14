@@ -18,6 +18,10 @@ iframe{
     border-style:none;
 }
 
+#caption{
+  text-align: center;
+}
+
 div{
   margin: 0 auto;
   display: flex;
