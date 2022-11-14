@@ -13,9 +13,9 @@ body{
   align-items: center;
 } */
 
-iframe{
-  display: block;
-  margin:auto;
+#frame{
+  position: fixed;
+  left: 50%;
 }
 
 #caption{
