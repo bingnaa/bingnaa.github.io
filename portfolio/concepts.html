@@ -13,7 +13,7 @@
 	
 	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
 	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
-	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/parallax.css">
 	<link rel="stylesheet" media="screen" href="css/style.css">
 </head>
 <body>
@@ -30,10 +30,30 @@
 		  </div>
 		</nav>
 	</header>
-	<div id="concepts">
-	  <h2>concepts</h2>
-	  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-	  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-	</div>
+	<section class = "content">
+		<img src = "img/parralax/layer1.png" id = "ground">
+		<img src = "img/parralax/layer2.png" id = "petal">
+		<img src = "img/parralax/layer3.png" id = "stem">
+		<img src = "img/parralax/layer4.png" id = "bloom">
+		<h2 id = "text">projects</h2>
+	</section>
+	<script> 
+	var gro = document.getElementById("ground");
+	var pet = document.getElementById("petal");
+	var steaam = document.getElementById("stem");
+	var blo = document.getElementById("bloom");
+	var tex = document.getElementById("text");
+	
+	window.addEventListener('scroll', function(){
+		var value = window.scrollY;
+		console.log(value);
+		
+		gro.style.top = value*.15 + 'px';
+		pet.style.top = -value*.5 + 'px';
+		steaam.style.top = value*.15 + 'px';
+		blo.style.top = -value*.5 + 'px';
+		tex.style.top = value*.15 + 'px';
+	});
+	</script>
 </body>
 </html>
