@@ -7,11 +7,6 @@ body{
   background-position: top 86px left -368px, top 86px right -368px;
 }
 
-/* #about{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 iframe{
   margin: auto;
   display: block;
