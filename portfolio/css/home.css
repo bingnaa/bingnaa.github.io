@@ -13,8 +13,8 @@ body{
   align-items: center;
 } */
 iframe{
-  align: center;
-  display: block
+  margin:auto;
+  display: block;
 }
 
 #caption{
