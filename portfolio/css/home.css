@@ -20,11 +20,20 @@ iframe{
 
 #caption{
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+  color: #b494b3;
 }
 
-div{
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+p{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #57762c;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #335e7d;
 }
