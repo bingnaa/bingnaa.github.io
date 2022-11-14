@@ -1,7 +1,16 @@
 
 section img{
   position: absolute;
-  top: 0;
-  left: 0;
   object-fit: cover;
+}
+
+#arrow{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#flower{
+  z-index: 1;
+  padding-top: 15px;
+  padding-left: 18px;
 }
