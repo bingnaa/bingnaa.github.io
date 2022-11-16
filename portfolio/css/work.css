@@ -37,5 +37,5 @@ section img{
   z-index: 10;
   padding-top: 5px;
   padding-left: 45px;
-  display: inline-block;
+  display: block;
 }
