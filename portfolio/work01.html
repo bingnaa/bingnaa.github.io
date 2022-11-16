@@ -37,10 +37,12 @@
 	<p>The behaviors of interactivity include: proximity enter, which starts the animation and triggers audio, and tap, which makes the chosen world orbit around the camera.</p>
 	<p>There were limitations in how interactive our experience could be because of what functions are available with aero currently in beta.</p>
 <script>
+	const element = document.querySelector("flower");
+	element.classList.add('animate__animated', 'animate__bounceOutLeft');
 	document.getElementById("flower").onmouseover  = function() {mouseOver()};
 // 	document.getElementById('flower').onmouseout = function() {mouseOut()};
 	function mouseOver() {
-		animateCSS('.flower', 'bounce');
+// 		animateCSS('.flower', 'bounce');
 	}
 // 	function mouseOut() {
 // 	}
