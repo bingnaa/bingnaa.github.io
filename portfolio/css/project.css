@@ -1,5 +1,5 @@
-#works li{
-  list-style-image: url('https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/bulletP.png?raw=true');
+#works li::marker{
+    content: ('https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/bulletP.png?raw=true');
 }
 
 .wolink{
