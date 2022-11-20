@@ -6,3 +6,7 @@ a{
 	line-height: 50px;
   color: #B0C252;
 }
+
+ul{
+  list-style-image:url('https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/bulletP.png?raw=true');
+}
