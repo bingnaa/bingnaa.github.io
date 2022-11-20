@@ -1,13 +1,12 @@
 .wolist{
   list-style-type: circle;
   list-style-image:url('https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/bulletP.png?raw=true');
+  text-align: center;
 }
 
 .wolink{
-  	text-align: center;
-	margin: auto;
  	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
 	font-weight: 500;
-	line-height: 50px;
+	line-height: 30px;
 }
