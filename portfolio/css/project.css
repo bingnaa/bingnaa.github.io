@@ -1,12 +1,13 @@
 #works{
+  list-style-type: circle !important;
   list-style-image:url('https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/bulletP.png?raw=true') !important;
 }
 
 #works a{
-  text-align: center !important;
-  font-family: 'Montserrat', sans-serif !important;
-	font-size: 40px !important;
-	font-weight: 500 !important;
-	line-height: 50px !important;
-  color: #B0C252 !important;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 50px;
+  color: #B0C252;
 }
