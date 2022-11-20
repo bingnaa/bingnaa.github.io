@@ -1,6 +1,8 @@
 #works{
   list-style-image:url('https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/bulletP.png?raw=true') !important;
-	
+}
+
+#works a{
   text-align: center !important;
   font-family: 'Montserrat', sans-serif !important;
 	font-size: 40px !important;
