@@ -2,7 +2,7 @@
 	list-style-image: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/bulletP.png?raw=true);
 } */
 
-div a{
+.flex-container a{
  	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
 	font-weight: 500;
