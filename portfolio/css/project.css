@@ -12,6 +12,7 @@ div a{
 .flex-container {
   display: flex;
   justify-content: center;
+  padding: 50px;
 }
 
 .flex-container > div {
