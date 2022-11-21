@@ -2,15 +2,23 @@
 	list-style-image: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/bulletP.png?raw=true);
 } */
 
-.wolink{
+div a{
  	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
 	font-weight: 500;
 	line-height: 50px;
-	display: block;
-	text-align: center;
 }
 
-#works li img{
-	display: flex;
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+/*   width: 100px; */
+  margin: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
 }
