@@ -47,7 +47,7 @@ section img{
   z-index: 1;
   padding-top: 15px;
   padding-left: 20px;
-  position: absolute;
+  position: relative;
 }
 
 #flower{
