@@ -45,7 +45,7 @@
 			<h2 id = "text">projects</h2>
 		</section>
 		<div class="flex-container">
-		  <div class = "animate__animated animate__pulse animate__delay-2s animate__infinite"><img src = "img/Lwing.png"></div>
+		  <div id = "wing2"><img src = "img/Lwing.png"></div>
 		  <div id = "hoverI"><a class = "wolink" href="work01.html">work 01</a></div>
 		  <div id = "wing"><img src = "img/Rwing.png"></div>
 		</div>
@@ -83,9 +83,11 @@
 		
 	function mouseOver(){
 		document.getElementById("wing").classList.add("animate__animated animate__pulse animate__delay-2s animate__infinite");
+		document.getElementById("wing2").classList.add("animate__animated animate__pulse animate__delay-2s animate__infinite");
 	}
 	function mouseOut(){
 		document.getElementById("wing").classList.remove("animate__animated animate__pulse animate__delay-2s animate__infinite");
+		document.getElementById("wing2").classList.remove("animate__animated animate__pulse animate__delay-2s animate__infinite");
 	}
 	// 	Splitting();
 	</script>
