@@ -52,10 +52,9 @@ section img{
 
 #flower{
   z-index: 10;
-  top: 5px;
-  left: 45px;
+  padding-top: 5px;
+  padding-left: 45px;
   display: block;
-  position: absolute;
 }
 
 #qrCode{
