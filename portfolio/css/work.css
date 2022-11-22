@@ -51,8 +51,8 @@ section img{
 
 #flower{
   z-index: 10;
-  padding-top: 5px;
-  padding-left: 45px;
+  top: 5px;
+  left: 45px;
   display: block;
 }
 
