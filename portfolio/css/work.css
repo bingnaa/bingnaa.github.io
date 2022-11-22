@@ -47,6 +47,7 @@ section img{
   z-index: 1;
   padding-top: 15px;
   padding-left: 20px;
+  position: absolute;
 }
 
 #flower{
@@ -54,13 +55,13 @@ section img{
   top: 5px;
   left: 45px;
   display: block;
-  position:absolute;
+  position: absolute;
 }
 
 #qrCode{
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 25%;
 }
 
 p{
