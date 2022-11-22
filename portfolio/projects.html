@@ -46,8 +46,8 @@
 		</section>
 		<div class="flex-container">
 		  <div class = "animate__animated animate__pulse animate__delay-2s animate__infinite"><img src = "img/Lwing.png"></div>
-		  <div><a class = "wolink" href="work01.html">work 01</a></div>
-		  <div class = "animate__animated animate__pulse animate__delay-2s animate__infinite"><img src = "img/Rwing.png"></div>
+		  <div id = "hoverI"><a class = "wolink" href="work01.html">work 01</a></div>
+		  <div id = "wing"><img src = "img/Rwing.png"></div>
 		</div>
 		<div class="flex-container">
 		  <div class = "animate__animated animate__pulse animate__delay-2s animate__infinite"><img src = "img/Lwing.png"></div>
@@ -55,6 +55,8 @@
 		  <div class = "animate__animated animate__pulse animate__delay-2s animate__infinite"><img src = "img/Rwing.png"></div>
 		</div>
 	<script> 
+	document.getElementById("hoverI").onmouseover  = function() {mouseOver()};
+	document.getElementById("hoverI").onmouseout = function() {mouseOut()};
 	var gro = document.getElementById("ground");
 	var pet = document.getElementById("petal");
 	var steaam = document.getElementById("stem");
@@ -78,6 +80,13 @@
 		blo.style.top = value*.1 + 'px';
 		tex.style.top = -value*.1 + 'px';
 	});
+		
+	function mouseOver(){
+		document.getElementById("wing").classList.add("animate__animated animate__pulse animate__delay-2s animate__infinite");
+	}
+	function mouseOut(){
+		document.getElementById("wing").classList.remove("animate__animated animate__pulse animate__delay-2s animate__infinite");
+	}
 	// 	Splitting();
 	</script>
 </body>
