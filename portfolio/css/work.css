@@ -55,6 +55,7 @@ section img{
   padding-top: 5px;
   padding-left: 45px;
   display: block;
+  position: absolute;
 }
 
 #qrCode{
