@@ -26,7 +26,7 @@
 <!-- 	//button here -->
 	<section class>
 		<a href="projects.html"> <img src="img/back-arrow2.png" id = "arrow"> </a>
-		<a href="projects.html"> <img class="animate__animated animate__wobble animate__delay-1s" src = "img/back-arrow1.png" id = "flower"> </a>
+		<a href="projects.html"> <img id = "flow" src = "img/back-arrow1.png" id = "flower"> </a>
 	</section>
 <!-- 	//button here -->
 	<h2>tiny worlds</h2>
@@ -39,4 +39,18 @@
 	<p>The behaviors of interactivity include: proximity enter, which starts the animation and triggers audio, and tap, which makes the chosen world orbit around the camera.</p>
 	<p>There were limitations in how interactive our experience could be because of what functions are available with aero currently in beta.</p>
 </body>
+	<script> 
+	document.getElementById("arrow").onmouseover  = function() {mouseOver()};
+	document.getElementById("arrow").onmouseout = function() {mouseOut()};
+	document.getElementById("flower").onmouseover  = function() {mouseOver()};
+	document.getElementById("flower").onmouseout = function() {mouseOut()};
+		
+	function mouseOver(){
+		document.getElementById("flow").classList.add('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	function mouseOut(){
+		document.getElementById("flow").classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	</script>
+
 </html>
