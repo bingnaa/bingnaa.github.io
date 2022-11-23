@@ -28,3 +28,8 @@
 #aniwing{
   opacity: 0;
 }
+
+#aniwing2{
+  transform: scaleX(-1);
+/*   opacity: 0; */
+}
