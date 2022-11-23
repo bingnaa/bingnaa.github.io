@@ -24,12 +24,3 @@
   font-weight: 500;
   line-height: 50px; */
 }
-
-.static {
-  background: white;
-  opacity: 0;
-}
-
-.statich {
-  opacity: 100;
-}
