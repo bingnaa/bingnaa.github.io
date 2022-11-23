@@ -24,3 +24,12 @@
   font-weight: 500;
   line-height: 50px; */
 }
+
+.static {
+  background: white;
+  opacity: 0;
+}
+
+.static:hover {
+  opacity: 100;
+}
