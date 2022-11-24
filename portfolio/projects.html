@@ -65,6 +65,7 @@
 	var blo = document.getElementById("bloom");
 	var tex = document.getElementById("text");
 	var ani = document.getElementById("aniwing");
+	var ani2 = document.getElementById("aniwing2");
 	
 	window.addEventListener('scroll', function(){
 		var value = window.scrollY;
@@ -88,11 +89,13 @@
 		document.getElementById("wing").classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
 		document.getElementById("wing2").classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
 		ani.style.opacity = "100";
+		ani2.style.opacity = "100";
 	}
 	function mouseOut(){
 		document.getElementById("wing").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
 		document.getElementById("wing2").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
 		ani.style.opacity = "0";
+		ani2.style.opacity = "100";
 	}
 	// 	Splitting();
 	</script>
