@@ -85,6 +85,7 @@ p{
   flex-direction: column;
   text-align: center;
   align-items: center;
+  align-content: center;
   justify-content: center;
   margin: 10px;
 }
