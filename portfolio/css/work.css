@@ -75,9 +75,9 @@ p{
   color: #000000;
 }
 
-div{
+/* div{
   width: 450px;
-}
+} */
 
 .flex-container{
   padding: 30px;
@@ -89,7 +89,7 @@ div{
   margin: 10px;
   text-align: center;
   align-items: center;
-  width: 300px;
+  width: 450px;
 }
 
 .flex-box{
