@@ -1,1 +1,65 @@
-//code that explores personal grief. played with the concept of grasping a "scattering" memory. the harder you try to remember it, the faster it fades.
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>work 01</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <!-- Splitting  -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" /> -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" /> -->
+<!-- 	<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script> -->
+ <!-- Animation  -->	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	
+	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
+	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+<!-- 	<link rel="stylesheet" media="screen" href="css/style.css"> -->
+	<link rel="stylesheet" href="css/work.css">
+</head>
+<body>
+<!-- 	//button here -->
+	<section class>
+		<a href="projects.html"> <img src="img/back-arrow2.png" id = "arrow"> </a>
+		<a href="projects.html"> <img src = "img/back-arrow1.png" id = "flower"> </a>
+	</section>
+<!-- 	//button here -->
+	<h2>tiny worlds</h2>
+	<h4>collaborator: maria paz martinez</h4>
+	<h3>augmented reality project made with adobe after effects and adobe aero (beta)</h3>
+	<div class="flex-box">
+	<img src = "img/project 01/aero.jpeg" id = "qrCode">
+	</div>
+	<p id = "warning">Needs use of camera. Can lag depending on screen size.<p>
+	
+	<div class="flex-container">
+		<p>code that explores personal grief. played with the concept of grasping a "scattering" memory.</p>
+		<p> the harder you try to remember it, the faster it fades.</p>
+    <p> detects when a person does a hand-pinch</p>
+  </div>
+  
+  <div class="flex-container">
+		<p>Images used in project that were modified with p5 pixel</p>
+    <p>Design cam about through multiple iterations. Needed soemthing that would work with code well.</p>
+  </div>
+	
+	<script> 
+	document.getElementById("arrow").onmouseover  = function() {mouseOver()};
+	document.getElementById("arrow").onmouseout = function() {mouseOut()};
+	document.getElementById("flower").onmouseover  = function() {mouseOver()};
+	document.getElementById("flower").onmouseout = function() {mouseOut()};
+		
+	function mouseOver(){
+		document.getElementById("flower").classList.add('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	function mouseOut(){
+		document.getElementById("flower").classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	</script>
+</body>
+</html>
