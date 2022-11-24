@@ -25,11 +25,11 @@
   line-height: 50px; */
 }
 
-#aniwing{
+.ani1{
   opacity: 0;
 }
 
-#aniwing2{
+.ani2{
   transform: scaleX(-1);
   opacity: 0;
 }
