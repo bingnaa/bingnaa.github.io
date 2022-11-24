@@ -87,3 +87,17 @@ p{
   align-items: center;
   width: 300px;
 }
+
+
+.flex-box{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-box > div {
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  width: 400px;
+}
