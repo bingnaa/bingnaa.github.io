@@ -76,12 +76,12 @@ p{
 }
 
 .flex-container{
-  display: flex;
-  flex-direction: row;
   padding: 30px;
 }
 
 .flex-container > div {
+  display: flex;
+  flex-direction: row;
   width: 300px;
   margin: 10px;
   text-align: center;
