@@ -76,6 +76,7 @@ p{
 
 div{
   width: 450px;
+  align-items: center;
 }
 
 .flex-container{
@@ -101,5 +102,4 @@ div{
 .flex-box > div {
   margin: 10px;
   text-align: center;
-  align-items: center;
 }
