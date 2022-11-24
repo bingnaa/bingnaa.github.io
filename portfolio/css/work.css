@@ -79,10 +79,10 @@ p{
   padding: 30px;
   display: flex;
   flex-direction: column;
+  width: 300px;
 }
 
 .flex-container > div {
-  inline-size: 300px;
   margin: 10px;
   text-align: center;
   align-items: center;
