@@ -59,8 +59,10 @@
 		  <div id = "aniwing4" class = "ani2"><img src = "img/work-banner.gif"></div>
 		</div>
 	<script> 
-	document.getElementById("hoverI").onmouseover  = function() {mouseOver()};
-	document.getElementById("hoverI").onmouseout = function() {mouseOut()};
+	document.getElementById("hoverI").onmouseover  = function() {mouseOver1()};
+	document.getElementById("hoverI").onmouseout = function() {mouseOut1()};
+	document.getElementById("hoverI2").onmouseover  = function() {mouseOver1()};
+	document.getElementById("hoverI2").onmouseout = function() {mouseOut1()};
 	var gro = document.getElementById("ground");
 	var pet = document.getElementById("petal");
 	var steaam = document.getElementById("stem");
@@ -89,19 +91,28 @@
 		tex.style.top = -value*.1 + 'px';
 	});
 		
-	function mouseOver(){
+	function mouseOver1(){
 		document.getElementById("wing").classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
 		document.getElementById("wing2").classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
 		ani.style.opacity = "100";
 		ani2.style.opacity = "100";
-		ani3.style.opacity = "100";
-		ani4.style.opacity = "100";
 	}
-	function mouseOut(){
+	function mouseOut1(){
 		document.getElementById("wing").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
 		document.getElementById("wing2").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
 		ani.style.opacity = "0";
 		ani2.style.opacity = "0";
+	}
+		
+	function mouseOver2(){
+		document.getElementById("wing3").classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
+		document.getElementById("wing4").classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
+		ani3.style.opacity = "100";
+		ani4.style.opacity = "100";
+	}
+	function mouseOut2(){
+		document.getElementById("wing3").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
+		document.getElementById("wing4").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
 		ani3.style.opacity = "0";
 		ani4.style.opacity = "0";
 	}
