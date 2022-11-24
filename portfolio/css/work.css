@@ -105,6 +105,6 @@ p{
 
 .item{
   width: 450px;
-  text-align: center;
-  justify-content: center;
+/*   text-align: center;
+  justify-content: center; */
 }
