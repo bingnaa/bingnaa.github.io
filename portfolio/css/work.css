@@ -61,7 +61,6 @@ section img{
 #qrCode{
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
 }
 
 p{
@@ -73,6 +72,10 @@ p{
 #warning{
   font-size: 15px;
   color: #000000;
+}
+
+div{
+  width: 450px;
 }
 
 .flex-container{
@@ -99,8 +102,4 @@ p{
   margin: 10px;
   text-align: center;
   align-items: center;
-}
-
-div{
-  width: 400px;
 }
