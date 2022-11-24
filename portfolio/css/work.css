@@ -82,7 +82,7 @@ p{
 }
 
 .flex-container > div {
-  width: 300px;
+  inline-size: 300px;
   margin: 10px;
   text-align: center;
   align-items: center;
