@@ -77,11 +77,11 @@ p{
 
 .flex-container{
   padding: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .flex-container > div {
-  display: flex;
-  flex-direction: row;
   width: 300px;
   margin: 10px;
   text-align: center;
