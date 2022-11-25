@@ -88,10 +88,6 @@ p{
   margin: 10px;
 }
 
-/* .flex-container > div {
-/*   width: 450px; */
-} */
-
 .flex-box{
   padding: 30px;
   display: flex;
@@ -103,6 +99,11 @@ p{
 
 .flex-box > div {
   margin: 10px;
+}
+
+#world1{
+  width: 50%;
+  height: 50%;
 }
 
 .item{
