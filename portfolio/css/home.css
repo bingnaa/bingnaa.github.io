@@ -38,7 +38,13 @@ footer{
   text-align: center;
 }
 
-h5{
+/* h5{
+  font-family: 'Montserrat', sans-serif;
+  color: #335e7d;
+  font-size: 20px;
+} */
+
+#contactMe{
   font-family: 'Montserrat', sans-serif;
   color: #335e7d;
   font-size: 20px;
