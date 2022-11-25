@@ -50,7 +50,7 @@ footer{
   font-size: 20px;
 }
 
-section img{
+.mailL img{
   position: absolute;
   object-fit: cover;
 }
