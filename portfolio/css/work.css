@@ -112,12 +112,7 @@ p{
   justify-content: center; */
 }
 
-#rabb{
-  width: 25%;
-  height: 25%
-}
-
-#rabb2{
+.rabb{
   width: 25%;
   height: 25%
 }
