@@ -13,3 +13,14 @@
   justify-content: center;
   margin: 10px;
 }
+
+.flex-box{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+}
