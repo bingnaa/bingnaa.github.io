@@ -4,6 +4,10 @@ p{
   color: #2a3159;
 }
 
+#lineB{
+  padding-top: 20px;
+}
+
 #finalPos{
   width: 50%;
   height: 50%;
@@ -32,6 +36,6 @@ p{
   width: 300px;
 }
 
-item{
-  padding: 30px;
+.item{
+  padding: 20px;
 }
