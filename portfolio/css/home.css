@@ -57,3 +57,7 @@ footer{
   align-content: center;
   text-align: center;
 }
+
+#mailLetter{
+  padding: 20px;
+}
