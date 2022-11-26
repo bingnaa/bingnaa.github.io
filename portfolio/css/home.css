@@ -48,6 +48,7 @@ footer{
   font-family: 'Montserrat', sans-serif;
   color: #335e7d;
   font-size: 20px;
+  align-self: flex-end;
 }
 
 .flex-foot{
@@ -55,9 +56,4 @@ footer{
   align-items: center;
   justify-content: center;
   align-content: center;
-  text-align: right;
-}
-
-#mailLetter{
-/*   padding: 20px; */
 }
