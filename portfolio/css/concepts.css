@@ -27,7 +27,6 @@ p{
 }
 
 .flex-box{
-  padding: 30px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -56,6 +55,6 @@ p{
 /*   width: 550px; */
 }
 
-.item{
+/* .item{
   padding: 20px;
-}
+} */
