@@ -50,7 +50,8 @@ footer{
   font-size: 20px;
 }
 
-.mailL img{
-  position: absolute;
-  object-fit: cover;
+.flex-foot{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
