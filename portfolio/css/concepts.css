@@ -11,7 +11,6 @@ p{
 #finalPos{
   width: 35%;
   height: 35%;
-  padding: 40px;
 }
 
 .flex-container{
@@ -23,6 +22,8 @@ p{
   align-content: center;
   justify-content: center;
   margin: 10px;
+  
+  gap: 40px;
 }
 
 .flex-box{
