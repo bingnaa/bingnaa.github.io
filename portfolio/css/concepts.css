@@ -35,8 +35,6 @@ p{
   justify-content: center;
   margin: 10px;
   width: 300px;
-  
-  gap: 40px;
 }
 
 .pItem{
@@ -55,6 +53,6 @@ p{
 /*   width: 550px; */
 }
 
-/* item{
+item{
   padding: 20px;
-} */
+}
