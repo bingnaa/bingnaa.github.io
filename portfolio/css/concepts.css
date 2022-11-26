@@ -36,7 +36,7 @@ p{
   width: 300px;
 }
 
-.pItem{
+.pItem > .flex-box{
   width: 550px;
 }
 
