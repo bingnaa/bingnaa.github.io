@@ -11,7 +11,7 @@ p{
 #finalPos{
   width: 35%;
   height: 35%;
-  padding: 30px;
+  padding: 40px;
 }
 
 .flex-container{
@@ -23,8 +23,6 @@ p{
   align-content: center;
   justify-content: center;
   margin: 10px;
-  
-  gap: 60px;
 }
 
 .flex-box{
@@ -36,6 +34,8 @@ p{
   justify-content: center;
   margin: 10px;
   width: 300px;
+  
+/*   gap: 30px; */
 }
 
 .pItem{
