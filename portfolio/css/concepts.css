@@ -1,5 +1,5 @@
 p{
-  text-align: center !important;
+  text-align: center;
   font-family:'Montserrat', sans-serif;
   color: #2a3159;
 }
@@ -38,6 +38,9 @@ p{
 
 .pItem{
   width: 550px;
+}
+
+p > .pItem{
   text-align: center;
 }
 
