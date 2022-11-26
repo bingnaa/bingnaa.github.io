@@ -36,6 +36,10 @@ p{
   width: 300px;
 }
 
+.pItem{
+  width: 550px;
+}
+
 .item{
   padding: 20px;
 }
