@@ -1,5 +1,5 @@
 p{
-  text-align: center;
+  text-align: center !important;
   font-family:'Montserrat', sans-serif;
   color: #2a3159;
 }
