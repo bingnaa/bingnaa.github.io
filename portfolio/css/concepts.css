@@ -4,9 +4,9 @@ p{
   color: #2a3159;
 }
 
-#lineB{
+/* #lineB{
   padding-top: 50px;
-}
+} */
 
 #finalPos{
   width: 50%;
@@ -36,7 +36,19 @@ p{
   width: 300px;
 }
 
-.pItem{
+/* .pItem{
+  width: 550px;
+} */
+
+.flex-intro{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
   width: 550px;
 }
 
