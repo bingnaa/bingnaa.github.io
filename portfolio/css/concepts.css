@@ -41,7 +41,7 @@ p{
 }
 
 .flex-intro{
-  padding: 15px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   text-align: center;
