@@ -40,5 +40,19 @@
   	<a href="mailto:bwj224@nyu.edu" id = "contactMe">contact me!</a>
 	<a href="mailto:bwj224@nyu.edu"> <img src="img/mail.png" id = "mailLetter"> </a>
 </footer>
+
+	<script> 
+	document.getElementById("mailLetter").onmouseover  = function() {mouseOver()};
+	document.getElementById("mailLetter").onmouseout = function() {mouseOut()};
+	document.getElementById("contactMe").onmouseover  = function() {mouseOver()};
+	document.getElementById("contactMe").onmouseout = function() {mouseOut()};
+		
+	function mouseOver(){
+		document.getElementById("mailLetter").classList.add('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	function mouseOut(){
+		document.getElementById("mailLetter").classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	</script>
 </body>
 </html>
