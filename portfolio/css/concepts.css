@@ -36,9 +36,9 @@ p{
   width: 300px;
 }
 
-/* .pItem{
+.pItem{
   width: 550px;
-} */
+}
 
 .flex-intro{
   padding: 15px;
@@ -49,7 +49,7 @@ p{
   align-content: center;
   justify-content: center;
   margin: 10px;
-  width: 550px;
+/*   width: 550px; */
 }
 
 .item{
