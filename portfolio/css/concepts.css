@@ -40,10 +40,6 @@ p{
   width: 550px;
 }
 
-p > .pItem{
-  text-align: center;
-}
-
 .item{
   padding: 20px;
 }
