@@ -123,3 +123,11 @@ p{
   height: 25%;
   padding: 20px;
 }
+
+a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #B0C252;
+	font-weight: 500;
+	line-height: 18px;
+}
