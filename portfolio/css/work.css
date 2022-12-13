@@ -57,6 +57,7 @@ section img{
   display: block;
   position: absolute;
 }
+
 #arrow2{
   transform: scaleX(-1);
   position: relative;
