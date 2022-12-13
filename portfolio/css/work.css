@@ -60,6 +60,7 @@ section img{
 #arrow2{
   transform: scaleX(-1);
   position: relative;
+  padding: 15px;
 }
 
 #qrCode{
