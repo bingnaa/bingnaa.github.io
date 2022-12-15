@@ -118,6 +118,14 @@ p{
   width: 45%;
 }
 
+#storyb{
+  width: 45%;
+}
+
+#ogbox{
+  width: 25%;
+}
+
 .item{
   width: 550px;
 /*   text-align: center;
