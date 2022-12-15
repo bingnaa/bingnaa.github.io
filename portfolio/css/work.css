@@ -114,6 +114,11 @@ p{
   background-color: black;
 }
 
+#birdidea{
+  width: 50%;
+  height: 25%;
+}
+
 .item{
   width: 550px;
 /*   text-align: center;
