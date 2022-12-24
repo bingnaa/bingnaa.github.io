@@ -20,9 +20,8 @@
   margin: 10px;
   text-align: center;
   align-items: center;
-/*   font-size: 40px;
-  font-weight: 500;
-  line-height: 50px; */
+  align-content: center;
+  justify-content: center;
 }
 
 .ani1{
