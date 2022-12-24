@@ -40,6 +40,10 @@
   text-align: center;
 }
 
+#title{
+  padding: 50px;
+}
+
 .flex-box{
   display: flex;
   flex-direction: column;
