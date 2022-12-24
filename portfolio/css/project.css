@@ -27,11 +27,11 @@
 
 .ani1{
   opacity: 0;
-  width: 25%;
+  width: 15%;
 }
 
 .ani2{
   transform: scaleX(-1);
   opacity: 0;
-  width: 25%;
+  width: 15%;
 }
