@@ -39,3 +39,16 @@
   color: #000000;
   text-align: center;
 }
+
+.flex-box{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+  width: 300px;
+  
+/*   gap: 30px; */
+}
