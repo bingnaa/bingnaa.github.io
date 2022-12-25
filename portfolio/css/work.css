@@ -126,6 +126,10 @@ p{
   width: 50%;
 }
 
+#frame{
+  width: 90%;
+}
+
 .item{
   width: 550px;
 /*   text-align: center;
