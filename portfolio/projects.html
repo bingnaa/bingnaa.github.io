@@ -62,6 +62,16 @@
 		<div class="flex-container">
 		  <h1 id = "title">ux case studies</h1>
 		</div>
+		<div class="flex-container">
+		  <div id = "aniwing9" class = "ani1"><img src = "img/work-banner.gif"></div>
+		  <div id = "wing9"><img src = "img/Lwing.png"></div>
+			<div class="flex-box">
+		  		<div id = "hoverI5"><a class = "wolink" href="work01.html">truffle health</a></div>
+				<p id = "caption">#figma #photoshop</p>
+			</div>
+		  <div id = "wing10"><img src = "img/Rwing.png"></div>
+		  <div id = "aniwing10" class = "ani2"><img src = "img/work-banner.gif"></div>
+		</div>
 <!-- 		student work -->
 		<div class="flex-container">
 		  <h1 id = "title">student work</h1>
@@ -105,6 +115,8 @@
 	document.getElementById("hoverI3").onmouseout = function() {mouseOut3()};
 	document.getElementById("hoverI4").onmouseover  = function() {mouseOver4()};
 	document.getElementById("hoverI4").onmouseout = function() {mouseOut4()};
+	document.getElementById("hoverI5").onmouseover  = function() {mouseOver5()};
+	document.getElementById("hoverI5").onmouseout = function() {mouseOut5()};
 
 	var gro = document.getElementById("ground");
 	var pet = document.getElementById("petal");
@@ -119,6 +131,8 @@
 	var ani6 = document.getElementById("aniwing6");
 	var ani7 = document.getElementById("aniwing7");
 	var ani8 = document.getElementById("aniwing8");
+	var ani9 = document.getElementById("aniwing9");
+	var ani10 = document.getElementById("aniwing10");
 	
 	window.addEventListener('scroll', function(){
 		var value = window.scrollY;
@@ -187,6 +201,18 @@
 		document.getElementById("wing8").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
 		ani7.style.opacity = "0";
 		ani8.style.opacity = "0";
+	}
+	function mouseOver5(){
+		document.getElementById("wing9").classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
+		document.getElementById("wing10").classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
+		ani9.style.opacity = "100";
+		ani10.style.opacity = "100";
+	}
+	function mouseOut5(){
+		document.getElementById("wing9").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
+		document.getElementById("wing10").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
+		ani9.style.opacity = "0";
+		ani10.style.opacity = "0";
 	}
 	// 	Splitting();
 	</script>
