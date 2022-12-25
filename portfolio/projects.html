@@ -77,6 +77,24 @@
 		  <div id = "wing6"><img src = "img/Rwing.png"></div>
 		  <div id = "aniwing6" class = "ani2"><img src = "img/work-banner.gif"></div>
 		</div>
+	
+		<div class="flex-container">
+		  <h1 id = "title">github</h1>
+		</div>
+		<div class="flex-container">
+		  <div id = "aniwing7" class = "ani1"><img src = "img/work-banner.gif"></div>
+		  <div id = "wing7"><img src = "img/Lwing.png"></div>
+			<div class="flex-box">
+		  		<div id = "hoverI4"><a class = "wolink" href="https://github.com/bingnaa/bingnaa.github.io/tree/main/portfolio">portfolio code</a></div>
+				<p id = "caption">#html #css</p>
+			</div>
+		  <div id = "wing8"><img src = "img/Rwing.png"></div>
+		  <div id = "aniwing8" class = "ani2"><img src = "img/work-banner.gif"></div>
+		</div>
+	
+		<div class="flex-container">
+		  <h1 id = "title">ux case studies</h1>
+		</div>
 	<script> 
 	document.getElementById("hoverI").onmouseover  = function() {mouseOver1()};
 	document.getElementById("hoverI").onmouseout = function() {mouseOut1()};
@@ -84,6 +102,9 @@
 	document.getElementById("hoverI2").onmouseout = function() {mouseOut2()};
 	document.getElementById("hoverI3").onmouseover  = function() {mouseOver3()};
 	document.getElementById("hoverI3").onmouseout = function() {mouseOut3()};
+	document.getElementById("hoverI4").onmouseover  = function() {mouseOver4()};
+	document.getElementById("hoverI4").onmouseout = function() {mouseOut4()};
+
 	var gro = document.getElementById("ground");
 	var pet = document.getElementById("petal");
 	var steaam = document.getElementById("stem");
@@ -95,6 +116,8 @@
 	var ani4 = document.getElementById("aniwing4");
 	var ani5 = document.getElementById("aniwing5");
 	var ani6 = document.getElementById("aniwing6");
+	var ani7 = document.getElementById("aniwing7");
+	var ani8 = document.getElementById("aniwing8");
 	
 	window.addEventListener('scroll', function(){
 		var value = window.scrollY;
@@ -149,6 +172,18 @@
 	function mouseOut3(){
 		document.getElementById("wing5").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
 		document.getElementById("wing6").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
+		ani5.style.opacity = "0";
+		ani6.style.opacity = "0";
+	}
+	function mouseOver4(){
+		document.getElementById("wing7").classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
+		document.getElementById("wing8").classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
+		ani5.style.opacity = "100";
+		ani6.style.opacity = "100";
+	}
+	function mouseOut4(){
+		document.getElementById("wing7").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
+		document.getElementById("wing8").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
 		ani5.style.opacity = "0";
 		ani6.style.opacity = "0";
 	}
