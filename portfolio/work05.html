@@ -1,1 +1,75 @@
-//ux + ui case-study
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>work 03</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <!-- Splitting  -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" /> -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" /> -->
+<!-- 	<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script> -->
+ <!-- Animation  -->	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	
+	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
+	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+<!-- 	<link rel="stylesheet" media="screen" href="css/style.css"> -->
+	<link rel="stylesheet" href="css/work.css">
+</head>
+<body>
+<!-- 	//button here -->
+	<section class>
+		<a href="projects.html"> <img src="img/back-arrow2.png" id = "arrow"> </a>
+		<a href="projects.html"> <img src = "img/back-arrow1.png" id = "flower"> </a>
+	</section>
+<!-- 	//button here -->
+	<h2>Cornell Box: Imperfect with Courage</h2>
+<!-- 	<h4>collaborator:</h4> -->
+	<h3>made with unity and maya</h3>
+  
+<!-- 	<div class="flex-box">
+	<iframe src="https://editor.p5js.org/bwj224/full/sd8eoGlJf" width="600px" height="400px" allow="camera"></iframe>
+	</div>
+	<p id = "warning">Needs use of camera. Takes a while to load and doesn't always detect hand gestures. Can lag depending on screen size.<p> -->
+		
+	<div class="flex-container">
+		<p class = "item">This "box" was made to represent my anxiety over "imperfection." The project specifically referenced an episode from Courage the Cowardly Dog: "Perfect." Video clips and audio were sourced from this episode.</p>
+ 	 </div>
+	
+	<div class="flex-box">
+		<img src = "img/project 03/Untitled_Artwork 20.png" id = "ogbox">
+	</div>
+	
+	<div class="flex-container">
+		<p class = "item">My initial idea for the Cornell box was actually based on my childhood, specifically with elements like the "piano" and the "deer." However, I wanted the project to have more of a "storyline" rather than just being an interactive experience. It ended up becoming a hybrid of the initial concept and the Courage the Cowardly Dog episode. Consequently, the project ended up taking an almost surrealist tone. I specifically wanted to play with the idea of a "TV Box" when considering what exactly a Cornell box is.</p>
+	</div>
+	
+	<div class="flex-box">
+		<img src = "img/project 03/Cornell Box- Storyboard.png" id = "storyb">
+	</div>
+	
+	<div class="flex-container">
+    		<p class = "item">I made the 3D models and their animations in Maya, and all settings were assembled in Unity and coded with Visual Studio.</p>
+ 		<p class = "item">Interactions are triggered through clicking with the mouse. Player mode is through first-person.</p>
+	</div>
+	
+	<script> 
+	document.getElementById("arrow").onmouseover  = function() {mouseOver()};
+	document.getElementById("arrow").onmouseout = function() {mouseOut()};
+	document.getElementById("flower").onmouseover  = function() {mouseOver()};
+	document.getElementById("flower").onmouseout = function() {mouseOut()};
+		
+	function mouseOver(){
+		document.getElementById("flower").classList.add('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	function mouseOut(){
+		document.getElementById("flower").classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	</script>
+</body>
