@@ -48,7 +48,7 @@
 		</section>
 <!-- 		github -->
 		<div class="flex-container">
-			<h1 data-splitting>github</h1>
+			<h1 class = "title">github</h1>
 		</div>
 <!-- 	github 1 -->
 		<div class="flex-container">
@@ -63,7 +63,7 @@
 		</div>
 <!-- 		ux -->
 		<div class="flex-container">
-			<h1 data-splitting>ux case studies</h1>
+			<h1 class = "title">ux case studies</h1>
 		</div>
 <!-- 	case 1 -->
 		<div class="flex-container">
@@ -78,7 +78,7 @@
 		</div>
 <!-- 		student work -->
 		<div class="flex-container">
-			<h1 data-splitting>student work</h1>
+			<h1 class = "title">student work</h1>
 		</div>
 <!-- 	work 1 -->
 		<div class="flex-container">
@@ -225,7 +225,18 @@
 	Splitting();
 	ScrollOut({
 // 		targets: '[data-splitting]'
-	});
+		targets: '.title', 
+		 onShown: function(el) {
+		    // remove the class
+		    el.classList.remove('animate__animated', 'animate__heartBeat');
+
+		    // force reflow
+		    void el.offsetWidth;
+
+		    // re-add the animated cl
+		    el.classList.add('animate__animated', 'animate__heartBeat');
+		  }
+		});
 	</script>
 </body>
 </html>
