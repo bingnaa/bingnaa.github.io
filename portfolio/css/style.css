@@ -59,15 +59,3 @@ body{
     transition: opacity 1.5s;
     -webkit-transition: opacity 1.5s; /* Safari */
 }
-
-splitting .char {
-  animation: slide-in .7s cubic-bezier(.3, 0, .7, 1) both;
-  animation-delay: calc(50ms * var(--char-index));
-}
-
-@keyframes slide-in {
-  from {
-    transform: scale(0.4) translateY(80%);
-    opacity: 0;
-  }
-}
