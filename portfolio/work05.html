@@ -16,6 +16,8 @@
 <!-- 	<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script> -->
  <!-- Animation  -->	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- ScrollOut -->
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
 	
 	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
 	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
@@ -39,33 +41,33 @@
 	<p id = "warning">Needs use of camera. Takes a while to load and doesn't always detect hand gestures. Can lag depending on screen size.<p> -->
 		
 	<div class="flex-container">
-		<p class = "item">This design challenge was to design a user interface to guide a patient through the process of understanding and paying his bill.</p>
-		<p class = "item">Specifically, the patient had to be able to: upload a picture of the bill, understand the bill, and pay the bill through this interface. </p>
-		<p class = "item">I chose to address this through wireframing a website interface.</p>
+		<p data-scroll class = "item">This design challenge was to design a user interface to guide a patient through the process of understanding and paying his bill.</p>
+		<p data-scroll class = "item">Specifically, the patient had to be able to: upload a picture of the bill, understand the bill, and pay the bill through this interface. </p>
+		<p data-scroll class = "item">I chose to address this through wireframing a website interface.</p>
 
  	 </div>
 	
 	<div class="flex-box">
-		<img src = "img/ux1/Design Challenge - Bill.png" id = "frame">
+		<img src = "img/ux1/Design Challenge - Bill.png" id = "frame" data-scroll>
 	</div>
 	
 	<div class="flex-container">
-		<p class = "item">This design challenge was specifically catered to John Smith, and an example bill was given to extract and breakdown information from. There was an assumption that the interface could accurately extract information from the bill, and there was no need to design anything that might potentially troubleshoot any wrong information that was inputted by the system.</p>
-		<p class = "item">My process focused on finding a way to make the bill more readable: how could the information be simplified so that the patient knew what to focus on? Furthermore, I wanted to keep in mind Truffle's branding when making my design choices; I wanted it to feel cohesive with the current, existing website.</p>
+		<p data-scroll class = "item">This design challenge was specifically catered to John Smith, and an example bill was given to extract and breakdown information from. There was an assumption that the interface could accurately extract information from the bill, and there was no need to design anything that might potentially troubleshoot any wrong information that was inputted by the system.</p>
+		<p data-scroll class = "item">My process focused on finding a way to make the bill more readable: how could the information be simplified so that the patient knew what to focus on? Furthermore, I wanted to keep in mind Truffle's branding when making my design choices; I wanted it to feel cohesive with the current, existing website.</p>
 	</div>
 	
 	<div class="flex-box">
-		<img src = "img/ux1/Frame 1.png" id = "frame">
+		<img src = "img/ux1/Frame 1.png" id = "frame" data-scroll>
 	</div>
 	<div class="flex-box">
-		<img src = "img/ux1/Frame 2.png" id = "frame">
+		<img src = "img/ux1/Frame 2.png" id = "frame" data-scroll>
 	</div>
 	<div class="flex-box">
-		<img src = "img/ux1/Frame 3.png" id = "frame">
+		<img src = "img/ux1/Frame 3.png" id = "frame" data-scroll>
 	</div>
 	
 	<div class="flex-container">
-    		<p class = "item">Limitations for this design challenge was limited experience in understanding insurance billing practices; specifically, how insurance was supposed to be integrated into the billing process. Also there was a lack of knowledge in how this interface was supposed to function with the current Truffle Health billing infrastructure as it currently is not public.</p>
+    		<p data-scroll class = "item">Limitations for this design challenge was limited experience in understanding insurance billing practices; specifically, how insurance was supposed to be integrated into the billing process. Also there was a lack of knowledge in how this interface was supposed to function with the current Truffle Health billing infrastructure as it currently is not public.</p>
 	</div>
 	
 	<script> 
@@ -80,5 +82,7 @@
 	function mouseOut(){
 		document.getElementById("flower").classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
 	}
+		
+	ScrollOut();
 	</script>
 </body>
