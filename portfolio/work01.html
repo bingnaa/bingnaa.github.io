@@ -16,7 +16,9 @@
 <!-- 	<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script> -->
  <!-- Animation  -->	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-	
+<!-- ScrollOut -->
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+	  
 	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
 	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
 <!-- 	<link rel="stylesheet" media="screen" href="css/style.css"> -->
@@ -36,14 +38,14 @@
 	<img src = "img/project 01/aero.jpeg" id = "qrCode">
 	<iframe src="https://player.vimeo.com/video/775164589?h=432bb10820" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 	</div>
-	<p id = "warning">File size of this project is large. May take a while to load.<p>
+	<p data-scroll id = "warning">File size of this project is large. May take a while to load.<p>
 	
 	<div class="flex-container">
-		<p class = "item">To experience this project, please scan QR code with iOS operated phone or iPad.</p>
-		<p class = "item">This project was created to model tiny planets like in the little prince. Our goal was to make a cute and immersive environment that used elements like animation and audio.</p>
-		<p class = "item">The behaviors of interactivity include: proximity enter, which starts the animation and triggers audio, and tap, which makes the chosen world orbit around the camera.</p>
-		<p class = "item">My responsibility in the project was in creating and exporting assets and in animating both the "ocean" world and "space" world.</p>
-		<p class = "item">Although aero was simple and easy to use, there were limitations in how interactive our experience could be because of what functions are available with aero currently in beta. Would have liked to use a more customizable program next time.</p>
+		<p data-scroll class = "item">To experience this project, please scan QR code with iOS operated phone or iPad.</p>
+		<p data-scroll class = "item">This project was created to model tiny planets like in the little prince. Our goal was to make a cute and immersive environment that used elements like animation and audio.</p>
+		<p data-scroll class = "item">The behaviors of interactivity include: proximity enter, which starts the animation and triggers audio, and tap, which makes the chosen world orbit around the camera.</p>
+		<p data-scroll class = "item">My responsibility in the project was in creating and exporting assets and in animating both the "ocean" world and "space" world.</p>
+		<p data-scroll class = "item">Although aero was simple and easy to use, there were limitations in how interactive our experience could be because of what functions are available with aero currently in beta. Would have liked to use a more customizable program next time.</p>
 	</div>
 	
 	<div class="flex-box">
@@ -51,7 +53,7 @@
 	</div>
 	
 	<div class="flex-container">
-		<p class = "item">Each world was created in after effects. It was inspired by this base "space world" animation. All animations ended up being 2D because of how we imported our files in aero: we needed to import them as a png image sequence.</p>
+		<p data-scroll class = "item">Each world was created in after effects. It was inspired by this base "space world" animation. All animations ended up being 2D because of how we imported our files in aero: we needed to import them as a png image sequence.</p>
 	</div>
 	
 	<script> 
@@ -66,6 +68,8 @@
 	function mouseOut(){
 		document.getElementById("flower").classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
 	}
+	
+	ScrollOut();
 	</script>
 </body>
 </html>
