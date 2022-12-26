@@ -152,6 +152,6 @@ a{
 
 body{ 
     opacity: 0;
-    transition: opacity 1s;
-    -webkit-transition: opacity 1s; /* Safari */
+    transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s; /* Safari */
 }
