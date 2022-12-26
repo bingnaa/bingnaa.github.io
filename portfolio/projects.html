@@ -218,13 +218,19 @@
 	}
 	
 	ScrollOut({
-		onShown(tt1) {
+		onShown: function(tt1) {
+			tt1.classList.remove("data-splitting");
+  			void tt1.offsetWidth;
     			tt1.classList.add("data-splitting");
  		}
-		onShown(tt2) {
+		onShown: function(tt2) {
+			tt2.classList.remove("data-splitting");
+  			void tt2.offsetWidth;
     			tt2.classList.add("data-splitting");
  		}
-		onShown(tt3) {
+		onShown: function(tt3) {
+			tt3.classList.remove("data-splitting");
+  			void tt3.offsetWidth;
     			tt3.classList.add("data-splitting");
  		}
 	});
