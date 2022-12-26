@@ -47,7 +47,7 @@
 			<h2 id = "text">projects</h2>
 		</section>
 <!-- 		github -->
-		<h1 id = "t1" class = "title">github</h1>
+		<h1 class = "title">github</h1>
 		<div class="flex-container">
 		  <div id = "aniwing7" class = "ani1"><img src = "img/work-banner.gif"></div>
 		  <div id = "wing7"><img src = "img/Lwing.png"></div>
@@ -59,7 +59,7 @@
 		  <div id = "aniwing8" class = "ani2"><img src = "img/work-banner.gif"></div>
 		</div>
 <!-- 		ux -->
-		<h1 id = "t2" class = "title">ux case studies</h1>
+		<h1 class = "title">ux case studies</h1>
 		<div class="flex-container">
 		  <div id = "aniwing9" class = "ani1"><img src = "img/work-banner.gif"></div>
 		  <div id = "wing9"><img src = "img/Lwing.png"></div>
@@ -71,7 +71,7 @@
 		  <div id = "aniwing10" class = "ani2"><img src = "img/work-banner.gif"></div>
 		</div>
 <!-- 		student work -->
-		<h1 id = "t3" class = "title">student work</h1>
+		<h1 class = "title">student work</h1>
 		<div class="flex-container">
 		  <div id = "aniwing" class = "ani1"><img src = "img/work-banner.gif"></div>
 		  <div id = "wing2"><img src = "img/Lwing.png"></div>
@@ -131,10 +131,6 @@
 	var ani8 = document.getElementById("aniwing8");
 	var ani9 = document.getElementById("aniwing9");
 	var ani10 = document.getElementById("aniwing10");
-		
-	var tt1 = document.getElementById("t1");
-	var tt2 = document.getElementById("t2");
-	var tt3 = document.getElementById("t3");
 	
 	window.addEventListener('scroll', function(){
 		var value = window.scrollY;
@@ -218,21 +214,13 @@
 	}
 	
 	ScrollOut({
-		onShown: function(tt1) {
-			tt1.classList.remove("data-splitting");
-  			void tt1.offsetWidth;
-    			tt1.classList.add("data-splitting");
- 		}
-		onShown: function(tt2) {
-			tt2.classList.remove("data-splitting");
-  			void tt2.offsetWidth;
-    			tt2.classList.add("data-splitting");
- 		}
-		onShown: function(tt3) {
-			tt3.classList.remove("data-splitting");
-  			void tt3.offsetWidth;
-    			tt3.classList.add("data-splitting");
- 		}
+		targets: '.title',
+		onShown: function(el) {
+      			el.classList.remove("data-splitting");
+			void el.offsetWidth;
+			el.classList.add("data-splitting");
+     		}
+   }
 	});
 	</script>
 </body>
