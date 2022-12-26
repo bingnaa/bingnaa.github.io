@@ -16,6 +16,8 @@
 <!-- 	<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script> -->
  <!-- Animation  -->	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- ScrollOut -->
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
 	
 	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
 	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
@@ -46,10 +48,10 @@
 		<a href = "https://wangbingnaa.itch.io/imperfect-with-courage">Playable version.</a> <a href="https://wangbingnaa.itch.io/imperfect-with-courage"> <img src="img/back-arrow2.png" id = "arrow2"> </a>
 	</div>
 	
-	<p id = "warning"> Video was recorded in Unity game preview; consequently, lighting and rendering quality appears different in the playable version of the experience.</p>
+	<p data-scroll id = "warning"> Video was recorded in Unity game preview; consequently, lighting and rendering quality appears different in the playable version of the experience.</p>
 	
 	<div class="flex-container">
-		<p class = "item">This "box" was made to represent my anxiety over "imperfection." The project specifically referenced an episode from Courage the Cowardly Dog: "Perfect." Video clips and audio were sourced from this episode.</p>
+		<p data-scroll class = "item">This "box" was made to represent my anxiety over "imperfection." The project specifically referenced an episode from Courage the Cowardly Dog: "Perfect." Video clips and audio were sourced from this episode.</p>
  	 </div>
 	
 	<div class="flex-box">
@@ -57,7 +59,7 @@
 	</div>
 	
 	<div class="flex-container">
-		<p class = "item">My initial idea for the Cornell box was actually based on my childhood, specifically with elements like the "piano" and the "deer." However, I wanted the project to have more of a "storyline" rather than just being an interactive experience. It ended up becoming a hybrid of the initial concept and the Courage the Cowardly Dog episode. Consequently, the project ended up taking an almost surrealist tone. I specifically wanted to play with the idea of a "TV Box" when considering what exactly a Cornell box is.</p>
+		<p data-scroll class = "item">My initial idea for the Cornell box was actually based on my childhood, specifically with elements like the "piano" and the "deer." However, I wanted the project to have more of a "storyline" rather than just being an interactive experience. It ended up becoming a hybrid of the initial concept and the Courage the Cowardly Dog episode. Consequently, the project ended up taking an almost surrealist tone. I specifically wanted to play with the idea of a "TV Box" when considering what exactly a Cornell box is.</p>
 	</div>
 	
 	<div class="flex-box">
@@ -65,8 +67,8 @@
 	</div>
 	
 	<div class="flex-container">
-    		<p class = "item">I made the 3D models and their animations in Maya, and all settings were assembled in Unity and coded with Visual Studio.</p>
- 		<p class = "item">Interactions are triggered through clicking with the mouse. Player mode is through first-person.</p>
+    		<p data-scroll class = "item">I made the 3D models and their animations in Maya, and all settings were assembled in Unity and coded with Visual Studio.</p>
+ 		<p data-scroll class = "item">Interactions are triggered through clicking with the mouse. Player mode is through first-person.</p>
 	</div>
 	
 	<script> 
@@ -81,5 +83,7 @@
 	function mouseOut(){
 		document.getElementById("flower").classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
 	}
+		
+	ScrollOut();
 	</script>
 </body>
