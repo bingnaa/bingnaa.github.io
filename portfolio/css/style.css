@@ -63,6 +63,7 @@ body{
 [data-scroll] {
   transition: opacity 1s;
 }
+
 [data-scroll="in"] {
   opacity: 1;
 }
