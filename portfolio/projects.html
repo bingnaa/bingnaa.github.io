@@ -16,6 +16,8 @@
 	<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
  <!-- Animation  -->	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- ScrollOut -->
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
 	
 	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
 	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
@@ -45,7 +47,7 @@
 			<h2 id = "text">projects</h2>
 		</section>
 <!-- 		github -->
-		<h1 data-splitting id = "title">github</h1>
+		<h1 data-splitting class = "title">github</h1>
 		<div class="flex-container">
 		  <div id = "aniwing7" class = "ani1"><img src = "img/work-banner.gif"></div>
 		  <div id = "wing7"><img src = "img/Lwing.png"></div>
@@ -57,7 +59,7 @@
 		  <div id = "aniwing8" class = "ani2"><img src = "img/work-banner.gif"></div>
 		</div>
 <!-- 		ux -->
-		<h1 data-splitting id = "title">ux case studies</h1>
+		<h1 data-splitting class = "title">ux case studies</h1>
 		<div class="flex-container">
 		  <div id = "aniwing9" class = "ani1"><img src = "img/work-banner.gif"></div>
 		  <div id = "wing9"><img src = "img/Lwing.png"></div>
@@ -69,7 +71,7 @@
 		  <div id = "aniwing10" class = "ani2"><img src = "img/work-banner.gif"></div>
 		</div>
 <!-- 		student work -->
-		  <h1 data-splitting id = "title">student work</h1>
+		  <h1 data-splitting class = "title">student work</h1>
 		<div class="flex-container">
 		  <div id = "aniwing" class = "ani1"><img src = "img/work-banner.gif"></div>
 		  <div id = "wing2"><img src = "img/Lwing.png"></div>
@@ -210,6 +212,10 @@
 		ani9.style.opacity = "0";
 		ani10.style.opacity = "0";
 	}
+	
+	ScrollOut({
+		
+	});
 	</script>
 </body>
 </html>
