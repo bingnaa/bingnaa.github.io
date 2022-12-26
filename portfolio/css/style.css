@@ -60,7 +60,18 @@ body{
     -webkit-transition: opacity 1.5s; /* Safari */
 }
 
-/* .splitting .char {
+[data-scroll] {
+  transition: opacity 1s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+}
+
+[data-scroll="out"] {
+  opacity: 0;
+}
+
+splitting .char {
   animation: slide-in .7s cubic-bezier(.3, 0, .7, 1) both;
   animation-delay: calc(50ms * var(--char-index));
 }
@@ -69,19 +80,5 @@ body{
   from {
     transform: scale(0.4) translateY(80%);
     opacity: 0;
-  }
-} */
-
-h1.splitting {
-  color: saturate(lighten(#182952,55%),60%);
-  .char {
-    transition: transform .3s cubic-bezier(.3, 0, .3, 1), opacity .3s linear;
-    transition-delay: calc( 20ms * var(--char-index) );
-
-  }
-
-  &[data-scroll="out"] .char {
-    opacity: 0.1;
-    transform: translateY( .25em );
   }
 }
