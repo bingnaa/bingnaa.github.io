@@ -31,7 +31,7 @@ p{
   margin: 10px;
   width: 300px;
   
-  column-gap: 30px;
+  gap: 100px;
 }
 
 .pItem{
@@ -55,7 +55,6 @@ p{
 }
 
 .tt{
-  width: 300px;
   text-align: left;
   display: block;
 }
