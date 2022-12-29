@@ -31,7 +31,7 @@ p{
   margin: 10px;
   width: 300px;
   
-  gap: 30px;
+  column-gap: 30px;
 }
 
 .pItem{
