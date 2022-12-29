@@ -50,6 +50,7 @@
 	<div class="flex-container">
 		<img src = "img/finalposter.png" data-scroll id = "finalPos">
 		 <div class="flex-box">
+			<h1 data-scroll class = "tt">itp winter show poster</h1>
 			<p data-scroll class = "item">A poster that was created to represent ITP’s 2022 Winter Show. Aimed to represent topics like physicality, connectedness, shared space, and celebration. Focused on creating a more humanistic interpretation NYU’s ITP program.</p>
 		 </div>
 	</div>
@@ -79,7 +80,21 @@
 		tex.style.top = -value*.1 + 'px';
 	});
 		
-	ScrollOut();
+	ScrollOut({
+// 		targets: '[data-splitting]'
+		targets: '.tt', 
+		 onShown: function(el) {
+		    // remove the class
+		    el.classList.remove('animate__animated', 'animate__tada');
+
+		    // force reflow
+		    void el.offsetWidth;
+
+		    // re-add the animated cl
+		    el.classList.add('animate__animated', 'animate__tada');
+		  }
+		});
+	ScrollOut({});
 	</script>
 </body>
 </html>
