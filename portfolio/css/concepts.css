@@ -58,4 +58,5 @@ p{
   text-align: left;
   width: 25%;
   align-self: start;
+  display: flex;
 }
