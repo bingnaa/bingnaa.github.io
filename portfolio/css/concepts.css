@@ -53,3 +53,8 @@ p{
 .item{
   padding: 20px;
 }
+
+.tt{
+  width: 250px;
+  text-align: left;
+}
