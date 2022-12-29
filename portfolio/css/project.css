@@ -55,3 +55,12 @@
   
 /*   gap: 30px; */
 }
+
+@media only screen and (max-width: 600px) {
+  .ani1{
+	display: none;
+  }
+  .ani2{
+	display: none;
+  }
+}
