@@ -56,11 +56,14 @@
 /*   gap: 30px; */
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1000px) {
   .ani1{
 	display: none;
   }
   .ani2{
+	display: none;
+  }
+  .para{
 	display: none;
   }
 }
