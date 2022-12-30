@@ -68,9 +68,6 @@
   .ani2{
 	display: none;
   }
-}
-
-@media only screen and (max-width: 500px) {
   .para{
 	display: none;
 	visibility: hidden;
