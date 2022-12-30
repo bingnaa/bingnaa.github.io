@@ -57,6 +57,7 @@ body{
 .head1{
   display: none;
   visibility: hidden;
+  color: #335e7d;
 }
 
 @media only screen and (max-width: 500px) {
