@@ -65,6 +65,11 @@ h6{
  	top: -70px;
 }
 
+.forMobile{
+	 display: none;
+  	 visibility: hidden;
+}
+
 body{ 
     opacity: 0;
     transition: opacity 1.5s;
@@ -85,5 +90,14 @@ body{
   h1{
        width: 300px;
        height: 100px;
+  }
+
+  .forMobile{
+	display: block;
+	visibility: visible;
+  }
+  .noMobile{
+	display: none;
+	visibility: hidden;
   }
 }
