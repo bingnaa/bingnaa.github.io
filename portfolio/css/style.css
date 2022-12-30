@@ -91,7 +91,10 @@ body{
        width: 300px;
        height: 100px;
   }
+}
 
+
+@media only screen and (max-width: 600px) {
   .forMobile{
 	display: block;
 	visibility: visible;
