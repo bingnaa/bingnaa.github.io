@@ -48,6 +48,17 @@ h1{
   top: -56px;
 }
 
+h6{
+  display: block;
+  font-family: 'Gravitas One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: -0.015em;
+  color: #B494B3;
+}
+
 .container-fluid{
 	display: flex;
 	position: relative;
