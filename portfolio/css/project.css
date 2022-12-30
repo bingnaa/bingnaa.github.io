@@ -56,6 +56,11 @@
 /*   gap: 30px; */
 }
 
+.head1{
+  display: none;
+  visibility: hidden;
+}
+
 @media only screen and (max-width: 1000px) {
   .ani1{
 	display: none;
@@ -65,5 +70,10 @@
   }
   .para{
 	display: none;
+	visibility: hidden;
+  }
+  .head1{
+  	display: block;
+	visibility: visible;
   }
 }
