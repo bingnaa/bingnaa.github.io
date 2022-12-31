@@ -60,6 +60,7 @@
 	width: 35%;
 	margin-left: auto;
 	margin-right: auto;
+	transform: scaleX(-1);
 }
 
 @media only screen and (max-width: 1000px) {
