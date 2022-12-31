@@ -56,6 +56,10 @@
 /*   gap: 30px; */
 }
 
+.proflower{
+	width: 35%;
+}
+
 @media only screen and (max-width: 1000px) {
 	.ani1{
 		display: none;
@@ -80,5 +84,8 @@
 	}
 	.tt{
 		font-size: 23px;
+	}
+	.proflower{
+		width: 50%;
 	}
 }
