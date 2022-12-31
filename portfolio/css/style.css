@@ -109,6 +109,6 @@ body{
   	background-size: 100px 100px;
   	background-repeat: no-repeat;
   	background-attachment: scroll;
-  	background-position: top -20px left -368px, top -20px right -368px;
+  	background-position: top -20px left 0px, top -20px right 0px;
   }
 }
