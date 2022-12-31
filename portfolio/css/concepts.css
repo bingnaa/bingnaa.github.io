@@ -70,10 +70,6 @@ p{
   p{
 	  font-size: 12px;
   }
-  #finalPos{
-	  width: 80%;
-	  padding: 0px;
-  }
   .flex-box{
 	  width: 70%;
   }
@@ -82,5 +78,11 @@ p{
   }
   .pItem{
   	width: 350px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #finalPos{
+	  width: 80%;
+	  padding: 0px;
   }
 }
