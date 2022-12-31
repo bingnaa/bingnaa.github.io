@@ -72,8 +72,8 @@
 	.spwing{
 		transform: scale(0.7);
 	}
-	a{
-		font-size: 12px;
+	.flex-container a{
+		font-size: 35px;
 	}
 	.flex-container{
 		padding: 20px;
