@@ -62,8 +62,9 @@ p{
 
 @media only screen and (max-width: 700px) {
   tt{
-	  font-size: 10px;
 	  height: 150px;
+	  text-align: center;
+	  width: 75%;
   }
   p{
 	  font-size: 12px;
