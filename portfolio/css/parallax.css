@@ -68,6 +68,7 @@ body{
   .head1{
   	display: block;
 	visibility: visible;
+	height: 20px;
   }
   body{
 	  background-image: none;
