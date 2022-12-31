@@ -10,6 +10,14 @@ p{
   padding: 40px;
 }
 
+#finalPos2{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  visibility: hidden;
+}
+
 .flex-container{
   padding: 30px;
   display: flex;
@@ -82,14 +90,18 @@ p{
   	width: 350px;
 	padding: 10px;
   }
-  #finalPos{
-	  width: 80%;
-	  padding: 0px;
-  }
   .item{
 	  padding: 10px;
   }
   .head1{
 	  height: 20px;
+  }
+  #finalPos{
+	display: none;
+	visibility: hidden;
+  }
+  #finalPos2{
+	display: block;
+	visibility: visible;
   }
 }
