@@ -84,7 +84,9 @@
 		document.getElementById("flower").classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
 	}
 		
-	ScrollOut();
+	if(navigator.userAgentData.mobile == false){
+		ScrollOut();
+	}
 	</script>
 </body>
 </html>
