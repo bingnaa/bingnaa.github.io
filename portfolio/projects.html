@@ -224,7 +224,9 @@
 	}
 		
 	Splitting();
-	ScrollOut({
+	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) == false){
+		ScrollOut({});
+		ScrollOut({
 // 		targets: '[data-splitting]'
 		targets: '.tt', 
 		 onShown: function(el) {
@@ -238,7 +240,7 @@
 		    el.classList.add('animate__animated', 'animate__fadeInLeft');
 		  }
 		});
-	ScrollOut({});
+	}
 	</script>
 </body>
 </html>
