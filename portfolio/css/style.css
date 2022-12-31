@@ -103,11 +103,4 @@ body{
 	display: none;
 	visibility: hidden;
   }
-	
-  tt{
-	  font-size: 15px;
-  }
-  p{
-	  font-size: 12px;
-  }
 }
