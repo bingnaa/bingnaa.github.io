@@ -71,6 +71,7 @@ p{
   }
   #finalPos{
 	  width: 80%;
+	  padding: 0px;
   }
   .flex-box{
 	  width: 70%;
