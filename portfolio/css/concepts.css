@@ -74,9 +74,11 @@ p{
   }
   .flex-container{
 	  align-items: self-start;
+	  padding: 10px;
   }
   .pItem{
   	width: 350px;
+	padding: 10px;
   }
   #finalPos{
 	  width: 80%;
