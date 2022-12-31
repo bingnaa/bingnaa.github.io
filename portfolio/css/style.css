@@ -108,6 +108,7 @@ body{
        height: 100px;
   }
   body{
+	background-image: none;
 	  background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true), 
     url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/flowerback1.png?raw=true);
   	background-size: 200px 200px;
@@ -119,6 +120,7 @@ body{
 
 @media only screen and (max-width: 850px) {
   body{
+	background-image: none;
 	  background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true), 
     url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/flowerback1.png?raw=true);
   	background-size: 300px 300px;
@@ -137,12 +139,12 @@ body{
 	display: none;
 	visibility: hidden;
   }
-  body{
+/*   body{
 	  background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true), 
     url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/flowerback1.png?raw=true);
   	background-size: 30px 30px;
   	background-repeat: no-repeat;
   	background-attachment: scroll;
   	background-position: top -20px left 0px, top -20px right 0px;
-  }
+  } */
 }
