@@ -86,22 +86,24 @@
 		blo.style.top = value*.1 + 'px';
 		tex.style.top = -value*.1 + 'px';
 	});
-		
-	ScrollOut({
-// 		targets: '[data-splitting]'
-		targets: '.tt', 
-		 onShown: function(el) {
-		    // remove the class
-		    el.classList.remove('animate__animated', 'animate__tada');
+	
+	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) == false){
+		ScrollOut({
+	// 		targets: '[data-splitting]'
+			targets: '.tt', 
+			 onShown: function(el) {
+			    // remove the class
+			    el.classList.remove('animate__animated', 'animate__tada');
 
-		    // force reflow
-		    void el.offsetWidth;
+			    // force reflow
+			    void el.offsetWidth;
 
-		    // re-add the animated cl
-		    el.classList.add('animate__animated', 'animate__tada');
-		  }
-		});
-	ScrollOut({});
+			    // re-add the animated cl
+			    el.classList.add('animate__animated', 'animate__tada');
+			  }
+			});
+		ScrollOut({});
+	}
 	</script>
 </body>
 </html>
