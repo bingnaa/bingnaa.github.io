@@ -59,3 +59,12 @@ p{
   text-align: left;
   width: 25%;
 }
+
+@media only screen and (max-width: 600px) {
+  tt{
+	  font-size: 15px;
+  }
+  p{
+	  font-size: 12px;
+  }
+}
