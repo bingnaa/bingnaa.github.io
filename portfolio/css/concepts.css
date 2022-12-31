@@ -78,9 +78,6 @@ p{
   .flex-container{
 	  align-items: self-start;
   }
-}
-
-@media only screen and (max-width: 500px) {
   .pItem{
   	width: 350px;
   }
