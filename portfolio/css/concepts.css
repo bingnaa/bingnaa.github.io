@@ -73,18 +73,10 @@ p{
 	  text-align: center;
 	  width: 75%;
 	  font-size: 23px;
+	  margin: auto;
   }
   p{
 	  font-size: 12px;
-  }
-  .flex-box{
-	  width: 70%;
-	  justify-content: space-between;
-  }
-  .flex-container{
-	  align-items: self-start;
-	  padding: 10px;
-	  justify-content: space-between;
   }
   .pItem{
   	width: 350px;
@@ -92,6 +84,7 @@ p{
   }
   .item{
 	  padding: 10px;
+	  text-align: center;
   }
   .head1{
 	  height: 20px;
