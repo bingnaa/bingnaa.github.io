@@ -58,10 +58,3 @@ footer{
   align-content: center;
   padding: 30px;
 }
-
-@media only screen and (max-width: 850px) {
-  body{
-    background-color: white;
-    background-image: none;
-  }
-}
