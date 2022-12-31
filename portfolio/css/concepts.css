@@ -70,4 +70,13 @@ p{
   #finalPos{
 	  width: 80%;
   }
+  .flex-box{
+	  width: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .pItem{
+  	width: 350px;
+  }
 }
