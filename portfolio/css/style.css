@@ -103,4 +103,12 @@ body{
 	display: none;
 	visibility: hidden;
   }
+  body{
+	  background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true), 
+    url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/flowerback1.png?raw=true);
+  	background-size: 100px 100px;
+  	background-repeat: no-repeat;
+  	background-attachment: scroll;
+  	background-position: top -20px left -368px, top -20px right -368px;
+  }
 }
