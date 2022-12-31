@@ -84,4 +84,10 @@ p{
 	  width: 80%;
 	  padding: 0px;
   }
+  item{
+	  padding: 10px;
+  }
+  .head1{
+	  height: 20px;
+  }
 }
