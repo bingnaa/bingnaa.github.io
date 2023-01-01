@@ -235,13 +235,13 @@
 		targets: '.tt', 
 		 onShown: function(el) {
 		    // remove the class
-		    el.classList.remove('animate__animated', 'animate__fadeInDown');
+		    el.classList.remove('animate__animated', 'animate__fadeInUp');
 
 		    // force reflow
 		    void el.offsetWidth;
 
 		    // re-add the animated cl
-		    el.classList.add('animate__animated', 'animate__fadeInDown');
+		    el.classList.add('animate__animated', 'animate__fadeInUp');
 		  }
 		});
 	}
