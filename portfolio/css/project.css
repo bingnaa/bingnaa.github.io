@@ -2,18 +2,18 @@
 	list-style-image: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/bulletP.png?raw=true);
 } */
 .git{
-	/* Created with https://www.css-gradient.com */
-	background: conic-gradient(from 180deg, #566C94, #375FCD);
+	background: rgb(2,0,36);
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,119,121,1) 34%, rgba(0,212,255,1) 100%);
 }
 
 .ux{
-	/* Created with https://www.css-gradient.com */
-	background: conic-gradient(from 180deg, #2263C5, #6499C7);
+	background: rgb(2,0,36);
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,87,121,1) 36%, rgba(0,212,255,1) 100%);
 }
 
 .studentWork{
-	/* Created with https://www.css-gradient.com */
-	background: conic-gradient(from 180deg, #26418C, #81ADD3);
+	background: rgb(2,0,36);
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,54,121,1) 36%, rgba(0,212,255,1) 100%);
 }
 
 
