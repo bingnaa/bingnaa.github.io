@@ -3,17 +3,17 @@
 } */
 .git{
 	background: rgb(2,0,36);
-	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,119,121,1) 34%, rgba(0,212,255,1) 100%);
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,85,1) 60%, rgba(0,255,53,0) 100%);
 }
 
 .ux{
 	background: rgb(2,0,36);
-	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,87,121,1) 36%, rgba(0,212,255,1) 100%);
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 60%, rgba(0,255,53,0) 100%);
 }
 
 .studentWork{
 	background: rgb(2,0,36);
-	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,54,121,1) 36%, rgba(0,212,255,1) 100%);
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,94,1) 60%, rgba(0,255,53,0) 100%);
 }
 
 
