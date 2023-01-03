@@ -107,10 +107,6 @@ p{
   margin: auto;
 }
 
-/* div{
-  width: 450px;
-} */
-
 .flex-container{
   padding: 30px;
   display: flex;
@@ -139,6 +135,10 @@ p{
   width: 25%;
   height: 25%;
   padding: 20px;
+}
+
+.bl{
+  background-color: black;
 }
 
 #world1{
