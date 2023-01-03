@@ -135,6 +135,12 @@ p{
   margin: 10px;
 }
 
+.birb{
+  width: 25%;
+  height: 25%;
+  padding: 20px;
+}
+
 #world1{
   width: 50%;
   height: 50%;
