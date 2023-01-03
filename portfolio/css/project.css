@@ -1,6 +1,21 @@
 /* #works li{
 	list-style-image: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/bulletP.png?raw=true);
 } */
+.git{
+	/* Created with https://www.css-gradient.com */
+	background: conic-gradient(from 180deg, #99C9DB, #3661A0);
+}
+
+.ux{
+	/* Created with https://www.css-gradient.com */
+	background: conic-gradient(from 180deg, #2263C5, #6499C7);
+}
+
+.studentWork{
+	/* Created with https://www.css-gradient.com */
+	background: conic-gradient(from 180deg, #26418C, #81ADD3);
+}
+
 
 .flex-container a{
  	font-family: 'Montserrat', sans-serif;
