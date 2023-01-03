@@ -1,25 +1,25 @@
 .git{
-	linear-gradient(0deg, white 5%, #EAFDFC);
+	background: linear-gradient(0deg, white 5%, #EAFDFC);
 }
 
 .ux{
-	linear-gradient(0deg, white 5%, #91D8E4);
+	background: linear-gradient(0deg, white 5%, #91D8E4);
 }
 
 .studentWork{
-	linear-gradient(0deg, white 5%, #BFEAF5);
+	background: linear-gradient(0deg, white 5%, #BFEAF5);
 }
 
 .tux{
-	linear-gradient(0deg, #91D8E4 50%, white);
+	background: linear-gradient(0deg, #91D8E4 50%, white);
 }
 
 .tstuw{
-	linear-gradient(0deg, #BFEAF5 50%, white);
+	background: linear-gradient(0deg, #BFEAF5 50%, white);
 }
 
 .tgit{
-	linear-gradient(0deg, #EAFDFC 50%, white);
+	background: linear-gradient(0deg, #EAFDFC 50%, white);
 }
 
 
