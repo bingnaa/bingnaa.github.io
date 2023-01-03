@@ -79,6 +79,7 @@ p{
 	  width: 75%;
 	  font-size: 23px;
 	  margin: auto;
+	  left: 0;
   }
   p{
 	  font-size: 12px;
@@ -101,5 +102,9 @@ p{
   #finalPos2{
 	display: block;
 	visibility: visible;
+  }
+  .flex-box{
+	display: none;
+	visibility: hidden;
   }
 }
