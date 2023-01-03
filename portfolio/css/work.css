@@ -63,7 +63,7 @@ h6{
   padding: 45 px;
 }
 
-section img{
+.ba img{
   position: absolute;
   object-fit: cover;
 }
