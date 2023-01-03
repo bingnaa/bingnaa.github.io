@@ -5,9 +5,9 @@ p{
 }
 
 #finalPos{
-  width: 50%;
+  width: 55%;
   height: 50%;
-  padding: 40px;
+  padding-right: 80px;
 }
 
 #finalPos2{
@@ -31,7 +31,7 @@ p{
 
 .flex-box{
   border-radius: 25px;
-  background: #A7C7E7;
+  background: #bce6ff;
 	
   display: flex;
   flex-direction: column;
@@ -69,7 +69,8 @@ p{
 .tt{
   text-align: left;
   width: 25%;
-  padding-left: 30px;
+  position: relative;
+  left: -60px;
 }
 
 @media only screen and (max-width: 700px) {
