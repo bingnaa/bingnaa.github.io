@@ -13,7 +13,7 @@
 .studentWork{
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(##bce6ff 95%, white 5%);
+	background-image: linear-gradient(#bce6ff 95%, white 5%);
 }
 
 .tux{
@@ -25,7 +25,7 @@
 .tstuw{
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(white 50%, ##bce6ff 50%);
+	background-image: linear-gradient(white 50%, #bce6ff 50%);
 }
 
 .tgit{
