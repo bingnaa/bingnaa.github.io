@@ -38,6 +38,18 @@ h4{
   padding: 15 px;
 }
 
+h5{
+  text-align: left;
+  font-family: 'Gravitas One', sans-serif;
+  color: #335e7d;
+	
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+	
+  padding: 20px;
+}
+
 section img{
   position: absolute;
   object-fit: cover;
