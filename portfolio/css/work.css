@@ -48,6 +48,19 @@ h5{
   line-height: 36px;
 	
   padding: 20px;
+  margin: auto;
+}
+
+h6{
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: #B0C252;
+  font-weight: 500;
+  line-height: 23px;
+  margin: auto;
+  
+  padding: 45 px;
 }
 
 section img{
