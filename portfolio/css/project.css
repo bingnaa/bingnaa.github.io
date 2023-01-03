@@ -19,19 +19,19 @@
 .tux{
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(white 50%, #91D8E4 50%);
+	background-image: linear-gradient(#ffffff 50%, #91D8E4 50%);
 }
 
 .tstuw{
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(white 50%, #BFEAF5 50%);
+	background-image: linear-gradient(#ffffff 50%, #BFEAF5 50%);
 }
 
 .tgit{
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(white 50%, #EAFDFC 50%);
+	background-image: linear-gradient(#ffffff 50%, #EAFDFC 50%);
 }
 
 
