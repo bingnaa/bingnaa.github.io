@@ -1,7 +1,7 @@
 /* #works li{
 	list-style-image: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/bulletP.png?raw=true);
 } */
-.git{
+/* .git{
 	background: rgb(2,0,36);
 	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,85,1) 60%, rgba(0,255,53,0) 100%);
 }
@@ -14,7 +14,7 @@
 .studentWork{
 	background: rgb(2,0,36);
 	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,94,1) 60%, rgba(0,255,53,0) 100%);
-}
+} */
 
 
 .flex-container a{
