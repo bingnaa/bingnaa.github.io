@@ -34,13 +34,13 @@ p{
   background: #c9e9f0;
 	
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   align-items: stretch;
   align-content: start;
   justify-content: start;
   margin: 10px;
-  width: 35%;
+  width: 45%;
   
 /*   gap: 100px; */
 }
@@ -70,7 +70,7 @@ p{
   text-align: left;
   width: 25%;
   position: relative;
-  left: -60px;
+  left: -80px;
 }
 
 @media only screen and (max-width: 700px) {
