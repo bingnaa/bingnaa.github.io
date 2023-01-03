@@ -1,24 +1,30 @@
 .git{
+	margin: 1px;
 	background-image: linear-gradient(180deg, white 5%, #EAFDFC. 95%);
 }
 
 .ux{
+	margin: 1px;
 	background-image: linear-gradient(180deg, white 5%, #91D8E4 95%));
 }
 
 .studentWork{
+	margin: 1px;
 	background-image: linear-gradient(180deg, white 5%, #BFEAF5 95%));
 }
 
 .tux{
+	margin: 1px;
 	background-image: linear-gradient(180deg, #91D8E4 50%, white 50%);
 }
 
 .tstuw{
+	margin: 1px;
 	background-image: linear-gradient(180deg, #BFEAF5 50%, white 50%);
 }
 
 .tgit{
+	margin: 1px;
 	background-image: linear-gradient(180deg, #EAFDFC 50%, white 50%);
 }
 
