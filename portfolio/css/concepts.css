@@ -30,6 +30,9 @@ p{
 }
 
 .flex-box{
+  border-radius: 25px;
+  background: #ccffff;
+	
   display: flex;
   flex-direction: column;
   text-align: center;
