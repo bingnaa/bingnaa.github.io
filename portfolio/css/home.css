@@ -95,4 +95,7 @@ footer{
   	background-attachment: scroll;
   	background-position: top -20px left 0px, top -20px right 0px;
   }
+  .contactM{
+	  font-size: 10px;
+  }
 }
