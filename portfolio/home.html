@@ -46,9 +46,10 @@
 <footer>
 <!-- 	<h5>contact me!</h5> -->
 	<div class = "flex-foot">
-		<a data-scroll href="mailto:bwj224@nyu.edu" class = "contactM">contact me!</a>
+		<a data-scroll href="mailto:bwj224@nyu.edu" class = "contactM" id = "contactMe">contact me!</a>
 		<a data-scroll href="mailto:bwj224@nyu.edu"> <img src="img/mail.png" id = "mailLetter"> </a>
-		<a data-scroll class = "contactM" href= "img/Briana+Jones,+Resume-ITP.png" download>download my resume</a>
+		<a data-scroll class = "contactM" href= "img/Briana+Jones,+Resume-ITP.png" download id = "contactResume">download my resume</a>
+		<a data-scroll href= "img/Briana+Jones,+Resume-ITP.png" download><img src="img/resume.png" id = "mailResume"></a>
 	</div>
 </footer>
 
@@ -57,6 +58,9 @@
 		
 	document.getElementById("contactMe").onmouseover  = function() {mouseOver()};
 	document.getElementById("contactMe").onmouseout = function() {mouseOut()};
+	
+	document.getElementById("contactResume").onmouseover  = function() {mouseOver1()};
+	document.getElementById("contactResume").onmouseout = function() {mouseOut1()};
 		
 	function mouseOver(){
 		document.getElementById("mailLetter").classList.add('animate__animated', 'animate__bounce', 'animate__infinite');
@@ -64,6 +68,14 @@
 	function mouseOut(){
 		document.getElementById("mailLetter").classList.remove('animate__animated', 'animate__bounce', 'animate__infinite');
 	}
+		
+	function mouseOver1(){
+		document.getElementById("mailResume").classList.add('animate__animated', 'animate__bounce', 'animate__infinite');
+	}
+	function mouseOut1(){
+		document.getElementById("mailResume").classList.remove('animate__animated', 'animate__bounce', 'animate__infinite');
+	}
+	
 	if(navigator.userAgentData.mobile == false){
 		ScrollOut();
 	}
