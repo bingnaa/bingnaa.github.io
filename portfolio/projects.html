@@ -86,6 +86,18 @@
 		  <div id = "wing10" class = "spwing"><img src = "img/Rwing.png" data-scroll></div>
 		  <div id = "aniwing10" class = "ani2"><img src = "img/work-banner.gif" data-scroll></div>
 		</div>
+<!-- 	case 2 -->
+<!-- 		<img src = "img/projectsflower/cookliteproject.png" data-scroll class = "proflower">
+		<div class="flex-container">
+		  <div id = "aniwing11" class = "ani1"><img src = "img/work-banner.gif" data-scroll></div>
+		  <div id = "wing11" class = "spwing"><img src = "img/Lwing.png" data-scroll></div>
+			<div class="flex-box">
+		  		<div id = "hoverI6"><a data-scroll class = "wolink" href="work07.html">hay jude!</a></div>
+				<p data-scroll id = "caption">#adobexd #usertesting</p>
+			</div>
+		  <div id = "wing12" class = "spwing"><img src = "img/Rwing.png" data-scroll></div>
+		  <div id = "aniwing12" class = "ani2"><img src = "img/work-banner.gif" data-scroll></div>
+		</div> -->
 	</section>
 	<section class = "tstuw">
 <!-- 		student work -->
@@ -142,6 +154,8 @@
 	document.getElementById("hoverI4").onmouseout = function() {mouseOut4()};
 	document.getElementById("hoverI5").onmouseover  = function() {mouseOver5()};
 	document.getElementById("hoverI5").onmouseout = function() {mouseOut5()};
+	document.getElementById("hoverI6").onmouseover  = function() {mouseOver6()};
+	document.getElementById("hoverI6").onmouseout = function() {mouseOut6()};	
 
 	var gro = document.getElementById("ground");
 	var pet = document.getElementById("petal");
@@ -158,6 +172,8 @@
 	var ani8 = document.getElementById("aniwing8");
 	var ani9 = document.getElementById("aniwing9");
 	var ani10 = document.getElementById("aniwing10");
+	var ani11 = document.getElementById("aniwing11");
+	var ani12 = document.getElementById("aniwing12");
 	
 	window.addEventListener('scroll', function(){
 		var value = window.scrollY;
@@ -238,6 +254,18 @@
 		document.getElementById("wing10").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
 		ani9.style.opacity = "0";
 		ani10.style.opacity = "0";
+	}
+	function mouseOver6(){
+		document.getElementById("wing11").classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
+		document.getElementById("wing12").classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
+		ani11.style.opacity = "100";
+		ani12.style.opacity = "100";
+	}
+	function mouseOut6(){
+		document.getElementById("wing11").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
+		document.getElementById("wing12").classList.remove('animate__animated', 'animate__pulse', 'animate__infinite');
+		ani11.style.opacity = "0";
+		ani12.style.opacity = "0";
 	}
 		
 	Splitting();
