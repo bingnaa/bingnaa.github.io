@@ -103,8 +103,7 @@
   width: 100px;
   margin-left: auto;
   margin-right: auto;
-  display: none;
-  visibility: hidden;
+  display: block;
 }
 
 @media only screen and (max-width: 1000px) {
