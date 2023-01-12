@@ -99,6 +99,14 @@
 	display: block;
 }
 
+#gba{
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  visibility: hidden;
+}
+
 @media only screen and (max-width: 1000px) {
 	.ani1{
 		display: none;
