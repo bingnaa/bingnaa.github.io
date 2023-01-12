@@ -107,6 +107,10 @@
   padding-top: 30px;
 }
 
+#buddY{
+	color: #000000;
+}
+
 @media only screen and (max-width: 1000px) {
 	.ani1{
 		display: none;
