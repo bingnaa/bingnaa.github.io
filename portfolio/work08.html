@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Elysium</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <!-- Splitting  -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" /> -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" /> -->
+<!-- 	<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script> -->
+ <!-- Animation  -->	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- ScrollOut -->
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+	
+	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
+	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+<!-- 	<link rel="stylesheet" media="screen" href="css/style.css"> -->
+	<link rel="stylesheet" href="css/work.css">
+</head>
+<body onload="document.body.style.opacity='1'">
+<!-- 	//button here -->
+	<section class = "ba">
+		<a href="projects.html"> <img src="img/back-arrow2.png" id = "arrow"> </a>
+		<a href="projects.html"> <img src = "img/back-arrow1.png" id = "flower"> </a>
+	</section>
+<!-- 	//button here -->
+	<h2>Elysium Case Study</h2>
+<!-- 	<h4>collaborator:</h4> -->
+	<h3>made with adobe xd, photoshop, and procreate</h3>
+	<h3>timeline: design, 48 hours</h3>
+  
+<!-- 	<div class="flex-box">
+	<iframe src="https://editor.p5js.org/bwj224/full/sd8eoGlJf" width="600px" height="400px" allow="camera"></iframe>
+	</div>
+	<p id = "warning">Needs use of camera. Takes a while to load and doesn't always detect hand gestures. Can lag depending on screen size.<p> -->
+	
+	<div class="flex-container">
+		<h5 data-scroll>Brief</h5>
+		<p data-scroll class = "item"></p>
+	</div>
+  
+	<div class="flex-container">
+		<h5 data-scroll>Interactions</h5>
+	</div>
+	
+	
+<!-- 	Brainstorm -->
+<!-- 	<div class="flex-container">
+		<h5 data-scroll>Brainstorm</h5>
+		<div class="flex-box">
+			<img src = "img/case 01/wireframe.png" class = "frame" data-scroll>
+		</div>
+	</div> -->
+		
+	<div class="flex-container">
+		<h5 data-scroll>Reflection</h5>
+	</div>
+	
+	<script> 
+	document.getElementById("arrow").onmouseover  = function() {mouseOver()};
+	document.getElementById("arrow").onmouseout = function() {mouseOut()};
+	document.getElementById("flower").onmouseover  = function() {mouseOver()};
+	document.getElementById("flower").onmouseout = function() {mouseOut()};
+		
+	function mouseOver(){
+		document.getElementById("flower").classList.add('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	function mouseOut(){
+		document.getElementById("flower").classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+		
+	if(navigator.userAgentData.mobile == false){
+		ScrollOut();
+	}
+	</script>
+</body>
