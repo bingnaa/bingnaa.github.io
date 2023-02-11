@@ -109,8 +109,8 @@
 
 #buddY{
 	color: #57762c;
-	font-size: 16px;
-	padding: 10px;
+	font-size: 20px;
+	padding: 30px;
 }
 
 @media only screen and (max-width: 1000px) {
