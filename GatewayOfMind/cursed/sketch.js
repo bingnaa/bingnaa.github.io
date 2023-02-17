@@ -65,9 +65,8 @@ function drawKeypoints()  {
         
         if (frameCount % 10 == 0) {
           // Add another word to the string and a whitespace
-          str += random(words) + ' ';
           // Update paragraph element  
-          text(str, keypoint.position.x, keypoint.position.y);
+          text(random(words), keypoint.position.x, keypoint.position.y);
         }
         
       }
