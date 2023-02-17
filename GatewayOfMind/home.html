@@ -26,5 +26,18 @@
   </head>
   <body>
     <iframe src="https://bingnaa.github.io/GatewayOfMind/cursed/" width="600px" height="400px" allow="camera" scrolling="no"></iframe>
+    <img src="https://thispersondoesnotexist.com/image" #img>
   </body>
+	
+  <script>
+	  window.onload = function() {
+    		var image = document.getElementById("img");
+
+    		function updateImage() {
+       			 image.src = image.src.split("?")[0] + "?" + new Date().getTime();
+    		}
+
+    		setInterval(updateImage, 1000);
+	}
+  </script>
 </html>
