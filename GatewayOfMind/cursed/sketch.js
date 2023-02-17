@@ -10,7 +10,6 @@ PoseNet example using p5.js
 
 let words = [];
 let str = "";
-let song;
 
 let video;
 let poseNet;
@@ -18,12 +17,10 @@ let poses = [];
 
 function preload() {
   loadStrings('horror.txt', process);
-  song = loadSound('VHS LOGOS - SONY.mp3');
 }
 
 
 function setup() {
-  song.play();
   createCanvas(640, 480);
   video = createCapture(VIDEO);
   video.size(width, height);
