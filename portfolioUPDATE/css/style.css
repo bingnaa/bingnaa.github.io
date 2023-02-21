@@ -24,3 +24,20 @@
   
 /*   gap: 100px; */
 }
+
+h2{
+  text-align: left;
+  font-family: 'Gravitas One', sans-serif;
+  color: #335e7d;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+p{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #57762c;
+  padding-left: 10px;
+  padding-right: 10px;
+}
