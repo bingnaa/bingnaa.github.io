@@ -6,7 +6,7 @@ body{
   background-size: 900px 900px;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: top -200px right -10px;
+  background-position: top -200px right 15px;
 }
 
 .flex-container{
