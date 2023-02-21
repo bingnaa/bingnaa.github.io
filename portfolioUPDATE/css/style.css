@@ -65,6 +65,10 @@ p{
 
 #scroll-text {
   text-align: right;
+  
+  font-family: bd-supper, sans-serif;
+  font-style: normal;
+  font-weight: 700;
 
   /* animation properties */
   -moz-transform: translateX(-100%);
