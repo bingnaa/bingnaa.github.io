@@ -68,6 +68,7 @@ p{
 #dcard{
   width: 25%;
   padding: 10px;
+  margin: auto;
 }
 
 .marquee {
