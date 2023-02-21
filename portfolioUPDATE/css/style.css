@@ -27,7 +27,9 @@
 
 h2{
   text-align: left;
-  font-family: 'Gravitas One', sans-serif;
+  font-family: bd-supper, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color: #335e7d;
   padding-top: 50px;
   padding-bottom: 25px;
