@@ -2,20 +2,17 @@
   padding: 30px;
   display: flex;
   flex-direction: row;
-  text-align: center;
+  text-align: left;
   align-items: self-end;
 /*   align-content: center; */
   justify-content: center;
   margin: 10px;
 }
 
-.flex-box{
-  border-radius: 25px;
-  background: #c9e9f0;
-	
+.flex-box{	
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   align-items: stretch;
   align-content: start;
   justify-content: start;
