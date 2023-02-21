@@ -66,7 +66,7 @@ p{
 }
 
 .marquee {
- height: 150px;	
+ height: 120px;	
  overflow: hidden;
  position: relative;
  border: 5px solid black;
