@@ -1,11 +1,26 @@
 @import url("https://use.typekit.net/bao5jex.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-a{
-	font-size: 28px;
+#leftCol a{
+   	font-size: 28px;
 	color: black;
 	font-family: 'Open Sans', sans-serif;
   	font-size: 15px;
+}
+
+.nav-item{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.affix {
+    top: 20px;
+    z-index: 9999 !important;
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    left: 0;
+    font-size: 16px;
 }
 
 body{
