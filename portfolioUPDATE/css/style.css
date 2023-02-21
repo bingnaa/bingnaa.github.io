@@ -1,6 +1,14 @@
 @import url("https://use.typekit.net/bao5jex.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+body{
+  background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true);
+  background-size: 900px 900px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top -96px right -368px;
+}
+
 .flex-container{
   padding: 30px;
   display: flex;
