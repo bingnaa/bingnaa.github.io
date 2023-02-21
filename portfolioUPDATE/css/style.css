@@ -1,3 +1,6 @@
+@import url('//fonts.cdnfonts.com/css/gravitas-one');
+@import url('//fonts.cdnfonts.com/css/montserrat');
+
 .flex-container{
   padding: 30px;
   display: flex;
