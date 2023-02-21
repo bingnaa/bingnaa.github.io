@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/bao5jex.css");
-@import url('//fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 .flex-container{
   padding: 30px;
@@ -44,7 +44,7 @@ h3{
 
 p{
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   color: #57762c;
   padding-left: 10px;
