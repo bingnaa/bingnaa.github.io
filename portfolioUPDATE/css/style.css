@@ -21,13 +21,12 @@
   justify-content: start;
   margin: 10px;
   width: 45%;
-  
 /*   gap: 100px; */
 }
 
 h2{
   text-align: left;
-  font-family: 'bd-supper', sans-serif;
+  font-family: bd-supper, sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #335e7d;
