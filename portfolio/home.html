@@ -357,7 +357,7 @@ menuItems.forEach((item) => {
     gsap.to(imageWrapper, {
       duration: 1.25,
       x: Math.abs(x - itemBounds.left) - imageWrapperBounds.width / 1.55,
-      y: Math.abs(y - itemBounds.top) - imageWrapperBounds.height - yOffset,
+      y: Math.abs(y - (itemBounds.top/2)) - imageWrapperBounds.height - yOffset,
     });
   };
 
