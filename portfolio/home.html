@@ -18,16 +18,21 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <!-- ScrollOut -->
 	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+<!-- tweenmax -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<!-- normalize -->
+        <script src="unpkg.com/normalize.css/"></script>
+<!-- gsap -->
+	<script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
 	
 	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
 	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
-	<link rel="stylesheet" href="css/home.css">
 	<link rel="stylesheet" media="screen" href="css/style.css">
 </head>
 <body onload="document.body.style.opacity='1'">
-	<img id = "logo" src="img/finallogo.gif">
-	<header>		
-		<nav class="navbar navbar-expand-sm .bg-transparent">
+	<header>
+		<img src="img/logo.png" id = "logo">
+<!-- 		<nav class="navbar navbar-expand-sm .bg-transparent">
 		  <div class="container-fluid">
 		    <ul class="navbar-nav">
 			      <li class="nav-item"><a href="home.html">home</a></li>
@@ -35,49 +40,335 @@
 			      <li class="nav-item"><a href="concepts.html">concepts</a></li>
 		    </ul>
 		  </div>
-		</nav>
+		</nav> -->
 	</header>
-	<iframe src="https://bingnaa.github.io/port2/" width="350px" height="350px" frameborder="0" scrolling="no"> </iframe>
-	<p data-splitting id = "caption">(drag me with your mouse.)</p>
-<!-- 	  <iframe src="https://editor.p5js.org/bwj224/full/gtI55qh30"></iframe> -->
-	<h2 data-scroll>//Interactive Storyteller</h2>
-	<p data-scroll>Student interested in the cross-cultural implications of media and design with experience in coding and in Adobe Creative Suite, Unity, Maya, and Arduino.</p>
-<footer>
-<!-- 	<h5>contact me!</h5> -->
-	<div class = "flex-foot">
-		<a data-scroll href="mailto:bwj224@nyu.edu" class = "contactM" id = "contactMe">contact me!</a>
-		<a data-scroll href="mailto:bwj224@nyu.edu"> <img src="img/mail.png" id = "mailLetter"> </a>
-		<a data-scroll class = "contactM" href= "img/BJones,Resume.png" download id = "contactResume">download my resume</a>
-		<a data-scroll href= "img/BJones,Resume.png" download><img src="img/resume.png" id = "mailResume"></a>
-	</div>
-</footer>
+	
+	<div class="container">
+		<div class="row">
+	      <!--left-->
+	      	<div class="col-md-1" id="leftCol">
+		        <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+				<li><a href="#Github">Code Projects</a></li>
+		          	<li><a href="#ux">UX/UI Cases</a></li>
+		    		<li><a href="#student">Student Work</a></li>
+		        </ul>
+	     	</div><!--/left-->
+	
+		<div class="col-md-11">
+			<div class="flex-container">
+				 <div class="flex-box">
+					<div><h2 data-scroll>Hi! I'm Briana Jones</h2></div>
+					<div><h3 data-scroll>//Interactive Storyteller</h3></div>
+					<div><p data-scroll>Student interested in the cross-cultural implications of media and design with experience in coding and in Adobe Creative Suite, Unity, Maya, and Arduino.</p></div>
+				</div>
+				<div><iframe src="https://bingnaa.github.io/port2/" width="350px" height="350px" frameborder="0" scrolling="no"> </iframe></div>
+			</div>
 
+			<div class="marquee">
+			  <div><p>//MY DESIGN PHILOSOPHY*/</p></div>
+			</div>
+			<img src="img/designcard.gif" id = "dcard">
+		</div>
+<!-- 	projects -->
+	<div class="col-md-11" id = "proj">
+<!-- 		github -->
+	<section id = "Github">
+		<h2 data-scroll class = "tt">code projects</h6>
+	</section>
+<!-- 	github 1 -->
+	<section class = "git">
+		<div class="flex-container">
+			<nav class="menu">
+			<div class="menu__item">
+			  <div class="menu__item-image_wrapper">
+			    <div class="menu__item-image_inner">
+			      <img class="menu__item-image" src="img/display/git.png" />
+			    </div>
+			  </div>
+			  <span class="menu__item-text"
+			    ><span class="menu__item-innertext"><a data-scroll href="https://github.com/bingnaa">github</a></span></span>
+			</div>
+			<div><p data-scroll id = "caption">#html #css #javascript #unity #c#</p></div>
+		</div>
+	</section>
+<!-- 		ux -->
+		<h2 data-scroll id = "ux">ux/ui case studies</h6>
+	<section class = "uxDesign">
+<!-- 	case 1 -->
+		<div class="flex-container">
+			<nav class="menu">
+			<div class="menu__item">
+			  <div class="menu__item-image_wrapper">
+			    <div class="menu__item-image_inner">
+			      <img class="menu__item-image" src="img/display/hay.png" />
+			    </div>
+			  </div>
+			  <span class="menu__item-text"
+			    ><span class="menu__item-innertext"><a data-scroll href="work06.html">hay jude!</a></span></span>
+			</div>
+		  	<div><p data-scroll id = "caption">#adobexd #research</p></div>
+		</div>
+<!-- 	case 2 -->
+		<div class="flex-container">
+			<nav class="menu">
+			<div class="menu__item">
+			  <div class="menu__item-image_wrapper">
+			    <div class="menu__item-image_inner">
+			      <img class="menu__item-image" src="img/display/ely.png" />
+			    </div>
+			  </div>
+			  <span class="menu__item-text"
+			    ><span class="menu__item-innertext"><a data-scroll href="work08.html">Elysium</a></span></span>
+			</div>
+		  	<div><p data-scroll id = "caption">#adobexd #aftereffects #ui</p></div>
+		</div>
+	</section>
+	
+	<section id = "student">
+<!-- 		student work -->
+		<h2 data-scroll class = "tt">student work</h6>
+	</section>
+	<section class = "studentWork">
+<!-- 	work 1 -->
+		<div class="flex-container">
+			<nav class="menu">
+			<div class="menu__item">
+			  <div class="menu__item-image_wrapper">
+			    <div class="menu__item-image_inner">
+			      <img class="menu__item-image" src="img/display/courage.png" />
+			    </div>
+			  </div>
+			  <span class="menu__item-text"
+			    ><span class="menu__item-innertext"><a data-scroll href="work03.html">imperfect</a></span></span>
+			</div>
+			<div><p data-scroll id = "caption">#unity #maya</p></div>
+		</div>
+<!-- 	work 2 -->
+		<div class="flex-container">
+			<nav class="menu">
+			<div class="menu__item">
+			  <div class="menu__item-image_wrapper">
+			    <div class="menu__item-image_inner">
+			      <img class="menu__item-image" src="img/display/bird.png" />
+			    </div>
+			  </div>
+			  <span class="menu__item-text"
+			    ><span class="menu__item-innertext"><a data-scroll href="work04.html">bird resuscitator</a></span></span>
+			</div>
+			<div><p data-scroll id = "caption">#arduino #p5js #fabrication</p></div>
+		</div>
+<!-- 	work 3 -->
+		<div class="flex-container">
+			<nav class="menu">
+			<div class="menu__item">
+			  <div class="menu__item-image_wrapper">
+			    <div class="menu__item-image_inner">
+			      <img class="menu__item-image" src="img/display/tiny.png" />
+			    </div>
+			  </div>
+			  <span class="menu__item-text"
+			    ><span class="menu__item-innertext"><a data-scroll href="work01.html">tiny worlds</a></span></span>
+			</div>
+		 	<div><p data-scroll id = "caption">#adobeaero #aftereffects</p></div>
+		</div>
+	</section>
+	</div>
+	</div>
+	</div>
+	
+	
+	
+	<div class="curzr" hidden></div>
+	
+	
 	<script>
 	Splitting();
-		
-	document.getElementById("contactMe").onmouseover  = function() {mouseOver()};
-	document.getElementById("contactMe").onmouseout = function() {mouseOut()};
-	
-	document.getElementById("contactResume").onmouseover  = function() {mouseOver1()};
-	document.getElementById("contactResume").onmouseout = function() {mouseOut1()};
-		
-	function mouseOver(){
-		document.getElementById("mailLetter").classList.add('animate__animated', 'animate__bounce', 'animate__infinite');
-	}
-	function mouseOut(){
-		document.getElementById("mailLetter").classList.remove('animate__animated', 'animate__bounce', 'animate__infinite');
-	}
-		
-	function mouseOver1(){
-		document.getElementById("mailResume").classList.add('animate__animated', 'animate__bounce', 'animate__infinite');
-	}
-	function mouseOut1(){
-		document.getElementById("mailResume").classList.remove('animate__animated', 'animate__bounce', 'animate__infinite');
-	}
 	
 	if(navigator.userAgentData.mobile == false){
 		ScrollOut();
 	}
+		
+// 	cursor
+	
+class GlitchEffect {
+  constructor() {
+    this.root = document.body
+    this.cursor = document.querySelector(".curzr")
+
+    this.distanceX = 0, 
+    this.distanceY = 0,
+    this.pointerX = 0,
+    this.pointerY = 0,
+    this.previousPointerX = 0
+    this.previousPointerY = 0
+    this.cursorSize = 25
+    this.glitchColorB = '#00feff'
+    this.glitchColorR = '#ff4f71'
+
+    this.cursorStyle = {
+      boxSizing: 'border-box',
+      position: 'fixed',
+      top: `${ this.cursorSize / -2 }px`,
+      left: `${ this.cursorSize / -2 }px`,
+      zIndex: '2147483647',
+      width: `${ this.cursorSize }px`,
+      height: `${ this.cursorSize }px`,
+      backgroundColor: '#222',
+      borderRadius: '50%',
+      boxShadow: `0 0 0 ${this.glitchColorB}, 0 0 0 ${this.glitchColorR}`,
+      transition: '100ms, transform 100ms',
+      userSelect: 'none',
+      pointerEvents: 'none'
+    }
+
+    if (CSS.supports("backdrop-filter", "invert(1)")) {
+      this.cursorStyle.backdropFilter = 'invert(1)'
+      this.cursorStyle.backgroundColor = '#fff0'
+    } else {
+      this.cursorStyle.backgroundColor = '#222'
+    }
+
+    this.init(this.cursor, this.cursorStyle)
+  }
+
+  init(el, style) {
+    Object.assign(el.style, style)
+    this.cursor.removeAttribute("hidden")
+    
+  }
+
+  move(event) {
+    this.previousPointerX = this.pointerX
+    this.previousPointerY = this.pointerY
+    this.pointerX = event.pageX + this.root.getBoundingClientRect().x
+    this.pointerY = event.pageY + this.root.getBoundingClientRect().y
+    this.distanceX = Math.min(Math.max(this.previousPointerX - this.pointerX, -10), 10)
+    this.distanceY = Math.min(Math.max(this.previousPointerY - this.pointerY, -10), 10)
+
+    if (event.target.localName === 'button' || 
+        event.target.localName === 'a' || 
+        event.target.onclick !== null ||
+        event.target.className.includes('curzr-hover')) {
+      this.hover()
+    } else {
+      this.hoverout()
+    }
+
+    this.cursor.style.transform = `translate3d(${this.pointerX}px, ${this.pointerY}px, 0)`
+    this.cursor.style.boxShadow = `
+      ${+this.distanceX}px ${+this.distanceY}px 0 ${this.glitchColorB}, 
+      ${-this.distanceX}px ${-this.distanceY}px 0 ${this.glitchColorR}`
+    this.stop()
+  }
+
+  hover() {
+  }
+
+  hoverout() {
+  }
+
+  click() {
+    this.cursor.style.transform += ` scale(0.75)`
+    setTimeout(() => {
+      this.cursor.style.transform = this.cursor.style.transform.replace(` scale(0.75)`, '')
+    }, 35)
+  }
+
+  stop() {
+    if (!this.moving) {
+      this.moving = true
+      setTimeout(() => {
+        this.cursor.style.boxShadow = ''
+        this.moving = false
+      }, 50)
+    }
+  }
+
+  remove() {
+    this.cursor.remove()
+  }
+}
+
+(() => {
+  const cursor = new GlitchEffect()
+  if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    document.onmousemove = function (event) {
+      cursor.move(event)
+    }
+    document.onclick = function () {
+      cursor.click()
+    }
+  } else {
+    cursor.remove()
+  }
+})()
+		
+const { gsap } = window;
+
+gsap
+  .timeline()
+  .set(".menu", { autoAlpha: 1 })
+  .from(".menu__item-innertext", {
+    delay: 1,
+    duration: 0.85,
+    xPercent: 25,
+    yPercent: 55,
+    stagger: 0.095,
+    skewY: gsap.utils.wrap([-8, 8]),
+    ease: "expo.out",
+  })
+  .set(".menu", { pointerEvents: "all" });
+
+gsap.defaults({
+  duration: 0.55,
+  ease: "expo.out",
+});
+
+const menuItems = document.querySelectorAll(".menu__item");
+
+menuItems.forEach((item) => {
+  const imageWrapper = item.querySelector(".menu__item-image_wrapper");
+  const imageWrapperBounds = imageWrapper.getBoundingClientRect();
+  let itemBounds = item.getBoundingClientRect();
+
+  const onMouseEnter = () => {
+    gsap.set(imageWrapper, {
+      scale: 0.8,
+      xPercent: 25,
+      yPercent: 20,
+      rotation: -15,
+    });
+    gsap.to(imageWrapper, { opacity: 1, scale: 1, yPercent: 0, rotation: 0 });
+  };
+
+  const onMouseLeave = () => {
+    gsap.to(imageWrapper, {
+      opacity: 0,
+      yPercent: -20,
+      xPercent: 25,
+      scale: 0.8,
+      rotation: -15,
+    });
+  };
+
+  const onMouseMove = ({ x, y }) => {
+    let yOffset = itemBounds.top / imageWrapperBounds.height;
+    yOffset = gsap.utils.mapRange(0, 1.5, -150, 150, yOffset);
+    gsap.to(imageWrapper, {
+      duration: 1.25,
+      x: Math.abs(x - itemBounds.left) - imageWrapperBounds.width / 1.55,
+      y: Math.abs(y - itemBounds.top) - imageWrapperBounds.height - yOffset,
+    });
+  };
+
+  item.addEventListener("mouseenter", onMouseEnter);
+  item.addEventListener("mouseleave", onMouseLeave);
+  item.addEventListener("mousemove", onMouseMove);
+
+  window.addEventListener("resize", () => {
+    itemBounds = item.getBoundingClientRect();
+  });
+});
 	</script>
 </body>
 </html>

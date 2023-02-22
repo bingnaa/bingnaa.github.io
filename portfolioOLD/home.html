@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jones' portfolio</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <!-- Splitting  -->
+	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+	<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+ <!-- Animation  -->	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- ScrollOut -->
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+	
+	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
+	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" media="screen" href="css/style.css">
+</head>
+<body onload="document.body.style.opacity='1'">
+	<img id = "logo" src="img/finallogo.gif">
+	<header>		
+		<nav class="navbar navbar-expand-sm .bg-transparent">
+		  <div class="container-fluid">
+		    <ul class="navbar-nav">
+			      <li class="nav-item"><a href="home.html">home</a></li>
+			      <li class="nav-item"><a href="projects.html">projects</a></li>
+			      <li class="nav-item"><a href="concepts.html">concepts</a></li>
+		    </ul>
+		  </div>
+		</nav>
+	</header>
+	<iframe src="https://bingnaa.github.io/port2/" width="350px" height="350px" frameborder="0" scrolling="no"> </iframe>
+	<p data-splitting id = "caption">(drag me with your mouse.)</p>
+<!-- 	  <iframe src="https://editor.p5js.org/bwj224/full/gtI55qh30"></iframe> -->
+	<h2 data-scroll>//Interactive Storyteller</h2>
+	<p data-scroll>Student interested in the cross-cultural implications of media and design with experience in coding and in Adobe Creative Suite, Unity, Maya, and Arduino.</p>
+<footer>
+<!-- 	<h5>contact me!</h5> -->
+	<div class = "flex-foot">
+		<a data-scroll href="mailto:bwj224@nyu.edu" class = "contactM" id = "contactMe">contact me!</a>
+		<a data-scroll href="mailto:bwj224@nyu.edu"> <img src="img/mail.png" id = "mailLetter"> </a>
+		<a data-scroll class = "contactM" href= "img/BJones,Resume.png" download id = "contactResume">download my resume</a>
+		<a data-scroll href= "img/BJones,Resume.png" download><img src="img/resume.png" id = "mailResume"></a>
+	</div>
+</footer>
+
+	<script>
+	Splitting();
+		
+	document.getElementById("contactMe").onmouseover  = function() {mouseOver()};
+	document.getElementById("contactMe").onmouseout = function() {mouseOut()};
+	
+	document.getElementById("contactResume").onmouseover  = function() {mouseOver1()};
+	document.getElementById("contactResume").onmouseout = function() {mouseOut1()};
+		
+	function mouseOver(){
+		document.getElementById("mailLetter").classList.add('animate__animated', 'animate__bounce', 'animate__infinite');
+	}
+	function mouseOut(){
+		document.getElementById("mailLetter").classList.remove('animate__animated', 'animate__bounce', 'animate__infinite');
+	}
+		
+	function mouseOver1(){
+		document.getElementById("mailResume").classList.add('animate__animated', 'animate__bounce', 'animate__infinite');
+	}
+	function mouseOut1(){
+		document.getElementById("mailResume").classList.remove('animate__animated', 'animate__bounce', 'animate__infinite');
+	}
+	
+	if(navigator.userAgentData.mobile == false){
+		ScrollOut();
+	}
+	</script>
+</body>
+</html>

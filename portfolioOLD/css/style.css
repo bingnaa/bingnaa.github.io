@@ -1,0 +1,150 @@
+@import url('//fonts.cdnfonts.com/css/gravitas-one');
+@import url('//fonts.cdnfonts.com/css/montserrat');
+
+.navbar-nav{
+	list-style-type: none;
+}
+
+.nav-item{
+	padding-right: 56px;
+	padding-left: 56px;
+}
+
+a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #B0C252;
+	font-weight: 500;
+	line-height: 18px;
+}
+
+#logo{
+  width: 200px;
+  height: 241px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -36px;
+}
+
+h1{
+  width: 446px;
+  height: 46px;
+  
+  font-family: 'Gravitas One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: -0.015em;
+  color: #B494B3;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  top: -56px;
+}
+
+h6{
+  display: block;
+  font-family: 'Gravitas One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: -0.015em;
+  color: #B494B3;
+}
+
+.container-fluid{
+	display: flex;
+	position: relative;
+ 	top: -70px;
+}
+
+.forMobile{
+	 display: none;
+  	 visibility: hidden;
+}
+
+body{ 
+    opacity: 0;
+    transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s; /* Safari */
+}
+
+[data-scroll] {
+  transition: opacity 1s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+}
+[data-scroll="out"] {
+  opacity: 0;
+}
+/* 
+@media only screen and (max-width: 446px) {
+  h1{
+       width: 300px;
+       height: 100px;
+  }
+} */
+
+
+@media only screen and (max-width: 700px) {
+  .forMobile{
+	display: block;
+	visibility: visible;
+  }
+  .noMobile{
+	display: none;
+	visibility: hidden;
+  }
+  h1{
+       width: 300px;
+       height: 100px;
+  }
+/*   body{
+	background-image: none;
+	  background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true), 
+    url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/flowerback1.png?raw=true);
+  	background-size: 200px 200px;
+  	background-repeat: no-repeat;
+  	background-attachment: scroll;
+  	background-position: top -20px left 0px, top -20px right 0px;
+  } */
+}
+/* 
+@media only screen and (max-width: 850px) {
+  body{
+	background-image: none;
+	  background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true), 
+    url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/flowerback1.png?raw=true);
+  	background-size: 300px 300px;
+  	background-repeat: no-repeat;
+  	background-attachment: scroll;
+  	background-position: top -20px left 0px, top -20px right 0px;
+  }
+} */
+
+@media only screen and (max-width: 300px) {
+  .forMobile{
+	display: block;
+	visibility: visible;
+  }
+  .noMobile{
+	display: none;
+	visibility: hidden;
+  }
+/*   body{
+	  background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true), 
+    url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/flowerback1.png?raw=true);
+  	background-size: 30px 30px;
+  	background-repeat: no-repeat;
+  	background-attachment: scroll;
+  	background-position: top -20px left 0px, top -20px right 0px;
+  } */
+}
