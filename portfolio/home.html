@@ -314,7 +314,7 @@ gsap
     delay: 1,
     duration: 0.85,
     xPercent: 25,
-    yPercent: 105,
+    yPercent: 85,
     stagger: 0.095,
     skewY: gsap.utils.wrap([-8, 8]),
     ease: "expo.out",
@@ -359,7 +359,7 @@ menuItems.forEach((item) => {
     gsap.to(imageWrapper, {
       duration: 1.25,
       x: Math.abs(x - itemBounds.left) - imageWrapperBounds.width / 1.55,
-      y: Math.abs(y - ((itemBounds.top/4)*3)) - imageWrapperBounds.height - yOffset,
+      y: Math.abs(y - ((itemBounds.top/8)*5)) - imageWrapperBounds.height - yOffset,
     });
   };
 
