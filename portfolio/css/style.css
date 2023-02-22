@@ -25,6 +25,12 @@
     bottom:0;
 }
 
+.footer a{
+    font-family: bd-supper, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
 body{
   background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/flowerback.png?raw=true);
   background-size: 700px 700px;
