@@ -37,19 +37,7 @@ body{
   margin: 10px;
 }
 
-.f-box{	
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  align-items: stretch;
-  align-content: start;
-  justify-content: start;
-  margin: 10px;
-  width: 100%;
-/*   gap: 100px; */
-}
-
-.f-box a{
+#proj a{
   font-family: bd-supper, sans-serif;
   font-style: normal;
   font-weight: 400;
