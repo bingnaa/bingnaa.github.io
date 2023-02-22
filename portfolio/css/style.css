@@ -8,7 +8,7 @@
   	font-size: 15px;
 }
 
-.affix-top {
+.affix {
     top: 20px;
     z-index: 9999 !important;
     display: inline-block;
@@ -18,17 +18,7 @@
     font-size: 16px;
 }
 
-.affix-bottom {
-    bottom: 20px;
-    z-index: 9999 !important;
-    display: absolute;
-    height: 150px;
-    width: 200px;
-    left: 0;
-    font-size: 16px;
-}
-
-.footer {
+/* .footer {
     height:40px;
     width:100%;
     position:absolute;
@@ -39,7 +29,7 @@
     font-family: bd-supper, sans-serif;
     font-style: normal;
     font-weight: 400;
-}
+} */
 
 body{
   background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/flowerback.png?raw=true);
