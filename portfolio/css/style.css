@@ -33,10 +33,10 @@
 
 body{
   background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/flowerback.png?raw=true);
-  background-size: 700px 700px;
+  background-size: 900px 800px;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: top -100px right 15px;
+  background-position: top -95px right -230px;
 }
 
 .flex-container{
