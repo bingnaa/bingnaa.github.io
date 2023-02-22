@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>bird box</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <!-- Splitting  -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" /> -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" /> -->
+<!-- 	<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script> -->
+ <!-- Animation  -->	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- ScrollOut -->
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+	
+	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
+	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+<!-- 	<link rel="stylesheet" media="screen" href="css/style.css"> -->
+	<link rel="stylesheet" href="css/work.css">
+</head>
+<body onload="document.body.style.opacity='1'">
+<!-- 	//button here -->
+	<section class = "ba">
+		<a href="projects.html"> <img src="img/back-arrow2.png" id = "arrow"> </a>
+		<a href="projects.html"> <img src = "img/back-arrow1.png" id = "flower"> </a>
+	</section>
+<!-- 	//button here -->
+	<h2>Bird Box</h2>
+	<h4>collaborator: becky hsu and yu-ying lee</h4>
+	<h3>coded with arduino and p5, fabricated by laser cutting </h3>
+
+	
+	<div class="flex-box">
+		<iframe src="https://player.vimeo.com/video/781307561?h=85977dc816&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1000" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="IMG_4558"></iframe>
+	</div>
+	<div class="flex-box">
+		<iframe src="https://editor.p5js.org/leey611/sketches/qde3Th861" width="800px" height="800px"></iframe>
+	</div>
+	<p data-scroll id = "warning">P5 interface works as a reference to our code. Not functional without required arduino code and components.<p>
+	
+	<div class="flex-container">
+		<p data-scroll class = "item">Project was based on a real-life historical object: a canary resuscitator. It was used by miners in the late 1800s and early 1900s to save the canaries that they used to detect CO2 levels. Because birds are more sensitive to CO2 levels, they would get sick before the miners could and would subsequently die from the high amounts of CO2 that they were detecting. The resuscitator was made as an act of compassion by these miners for these birds.</p>
+		<p data-scroll class = "item">The purpose of this project was to not only be educational but also inspire compassion in our participants. We made a physical version of the bird to make the interaction between participant and our bird feel more real. Although our "O2 levels" were initially controlled through a button, after receiving feedback from play-tests, we changed our controller to an "oxygen tank" (that was 3d-printed) so that giving the bird "oxygen" felt more intuitive to the player.</p>
+    		<p data-scroll class = "item">My role in the project was assisting with both fabrication (specifically, laser cutting) and the p5 interface. I also led the team in ideating and forming what sort of interactions that we wanted the bird and player to have.</p>
+ 	     	<p data-scroll class = "item">This project was displayed at ITP's winter show.</p>
+
+	</div>
+	
+	<div class="flex-container">
+		<h5 data-scroll>Prototypes</h5>
+	</div>
+	
+	<div class="flex-box">
+		<img src = "img/project 04/birdbox.JPG" id = "birdidea" data-scroll>
+	</div>
+	<div class="flex-box">
+		<img src = "img/project 04/prototyp.JPG" class = "birb" data-scroll>
+		<img src = "img/project 04/prototype.JPG" class = "birb" data-scroll>
+	</div>
+	
+	<div class="flex-container">
+		<p data-scroll class = "item">Project was prototyped and reiterated multiple times because of physical limitations and time constraints. Also there was an awareness that our prototyped model wouldn't work the way that it was supposed to because all components had to be working accurately for our bird to actually "fly."</p>
+	</div>
+	
+	<script> 
+	document.getElementById("arrow").onmouseover  = function() {mouseOver()};
+	document.getElementById("arrow").onmouseout = function() {mouseOut()};
+	document.getElementById("flower").onmouseover  = function() {mouseOver()};
+	document.getElementById("flower").onmouseout = function() {mouseOut()};
+		
+	function mouseOver(){
+		document.getElementById("flower").classList.add('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	function mouseOut(){
+		document.getElementById("flower").classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+		
+	if(navigator.userAgentData.mobile == false){
+		ScrollOut();
+	}
+	</script>
+</body>

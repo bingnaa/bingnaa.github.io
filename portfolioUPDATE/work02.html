@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>work 02</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <!-- Splitting  -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" /> -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" /> -->
+<!-- 	<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script> -->
+ <!-- Animation  -->	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- ScrollOut -->
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+	
+	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
+	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+<!-- 	<link rel="stylesheet" media="screen" href="css/style.css"> -->
+	<link rel="stylesheet" href="css/work.css">
+</head>
+<body onload="document.body.style.opacity='1'">
+<!-- 	//button here -->
+	<section class = "ba">
+		<a href="projects.html"> <img src="img/back-arrow2.png" id = "arrow"> </a>
+		<a href="projects.html"> <img src = "img/back-arrow1.png" id = "flower"> </a>
+	</section>
+<!-- 	//button here -->
+	<h2>scattered love</h2>
+<!-- 	<h4>collaborator:</h4> -->
+	<h3>coding project made in p5.js web editor, implementing handfrees.js</h3>
+	<div class="flex-box">
+	<iframe src="https://editor.p5js.org/bwj224/full/sd8eoGlJf" width="600px" height="400px" allow="camera"></iframe>
+	</div>
+	<p data-scroll id = "warning">Needs use of camera. Takes a while to load and doesn't always detect hand gestures. Can lag depending on screen size.<p>
+	
+	<div class="flex-container">
+		<p data-scroll class = "item">Code that explores personal grief. played with the concept of grasping a "scattering" memory:</p>
+		<p data-scroll class = "item">the harder you try to remember it, the faster it fades.</p>
+    		<p data-scroll class = "item">Project was coded in p5.js; it uses the handfree.js library. Detects when a person does a "hand-pinch" to transition between images.</p>
+ 	 </div>
+	
+	<div class="flex-box" id = "rabb">
+		<img src = "img/project 02/crane.png" class = "rabb">
+		<img src = "img/project 02/deer.png" class = "rabb">
+		<img src = "img/project 02/wave.png" class = "rabb">
+	</div>
+	<div class="flex-container">
+		<p data-scroll class = "item">These were the initial images used. Wanted it to have a feel of "looking into another world." Problem was that they were too detailed and didn't show up as well as I would like. The glitch effect also looked like a mistake, rather than intentional.</p>
+	</div>
+	<div class="flex-box" id = "rabb">
+		<img src = "img/project 02/oldu1.png" class = "rabb">
+		<img src = "img/project 02/oldu2.png" class = "rabb">
+	</div>
+	<div class="flex-container">
+		<p data-scroll class = "item">I decided to go in a more personal direction with the images that I made- I decided to focus on the loss of my rabbit. It also worked well with the concept that I wanted to go with: fleeting memories. Problem was that these images were also too detailed and didn't show up well when they were pixelated.</p>
+	</div>
+	<div class="flex-box" id = "rabb2">
+		<img src = "img/project 02/u1.png" class = "rabb">
+		<img src = "img/project 02/u2.png" class = "rabb">
+		<img src = "img/project 02/u3.png" class = "rabb">
+	</div>
+  
+	  <div class="flex-container">
+		<p data-scroll  class = "item">The final images were the ones that I used in project. They were modified with p5 pixel.</p>
+		<p data-scroll  class = "item">This final design came about through multiple iterations. Needed something that would translate well with the code that I had written. More abstract than detailed. A monochrome palette also better portrayed the feeling of grief that I wanted to present in the work.</p>
+	  </div>
+	
+	<script> 
+	document.getElementById("arrow").onmouseover  = function() {mouseOver()};
+	document.getElementById("arrow").onmouseout = function() {mouseOut()};
+	document.getElementById("flower").onmouseover  = function() {mouseOver()};
+	document.getElementById("flower").onmouseout = function() {mouseOut()};
+		
+	function mouseOver(){
+		document.getElementById("flower").classList.add('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	function mouseOut(){
+		document.getElementById("flower").classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+		
+	if(navigator.userAgentData.mobile == false){
+		ScrollOut();
+	}
+	</script>
+</body>
+</html>

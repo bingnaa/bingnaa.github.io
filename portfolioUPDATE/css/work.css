@@ -1,0 +1,213 @@
+h2{
+  position: relative;
+  color: #B494B3;
+  font-size: 5em;
+  font-family: 'Gravitas One', sans-serif;
+  text-align: center;
+  
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  
+  margin: auto;
+  
+  padding: 20 px;
+}
+
+h3{
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  color: #B0C252;
+  font-weight: 500;
+  line-height: 18px;
+  margin: auto;
+  
+  padding: 15 px;
+}
+
+h4{
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: #B0C252;
+  font-weight: 500;
+  line-height: 23px;
+  margin: auto;
+  
+  padding: 15 px;
+}
+
+h5{
+  text-align: left;
+  font-family: 'Gravitas One', sans-serif;
+  color: #335e7d;
+	
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+	
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+h6{
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: #B0C252;
+  font-weight: 500;
+  line-height: 23px;
+  
+  padding: 45 px;
+}
+
+.ba img{
+  position: absolute;
+  object-fit: cover;
+}
+
+#arrow{
+  z-index: 1;
+  padding-top: 15px;
+  padding-left: 20px;
+  position: relative;
+}
+
+#flower{
+  z-index: 10;
+  top: 5px;
+  left: 45px;
+  display: block;
+  position: absolute;
+}
+
+#arrow2{
+  transform: scaleX(-1);
+  position: relative;
+  padding: 15px;
+}
+
+#qrCode{
+  width: 40%;
+}
+
+#gameUI{
+  width: 50%;
+}
+
+p{
+  text-align: center;
+  font-family:'Montserrat', sans-serif;
+  color: #2a3159;
+}
+
+#warning{
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+.flex-container{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.flex-box{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.flex-box > div {
+  margin: 10px;
+}
+
+.birb{
+  width: 25%;
+  height: 25%;
+  padding: 20px;
+}
+
+.bl{
+  background-color: #959595;
+}
+
+.buttonba{
+  background-color: black;
+}
+
+#world1{
+  width: 50%;
+  height: 50%;
+  background-color: black;
+}
+
+#birdidea{
+  width: 45%;
+}
+
+#storyb{
+  width: 75%;
+}
+
+#ogbox{
+  width: 50%;
+}
+
+.frame{
+  width: 90%;
+}
+
+.item{
+  width: 75%;
+/*   text-align: center;
+  justify-content: center; */
+}
+
+.intFrame{
+  width: 65%;
+/*   text-align: center;
+  justify-content: center; */
+}
+
+.rabb{
+  width: 25%;
+  padding: 50px;
+}
+
+a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #B0C252;
+	font-weight: 500;
+	line-height: 18px;
+}
+
+body{ 
+    opacity: 0;
+    transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s; /* Safari */
+}
+
+[data-scroll] {
+  transition: opacity 1s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+}
+[data-scroll="out"] {
+  opacity: 0;
+}
