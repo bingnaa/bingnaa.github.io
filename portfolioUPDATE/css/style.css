@@ -18,6 +18,10 @@
     font-size: 16px;
 }
 
+.col-md-5(
+    border: 5px solid black;
+)
+
 body{
   background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/css/img/untitled%20copy%202.png?raw=true);
   background-size: 900px 900px;
