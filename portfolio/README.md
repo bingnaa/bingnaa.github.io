@@ -6,4 +6,4 @@ Purpose of this website is to document ITP coursework and personal projects.
 
 Currently unavailable for mobile.
 
-[code sourced from CodeGrid, Curzr, and Bootstrap examples]
+[code sourced from CodeGrid and Bootstrap examples]
