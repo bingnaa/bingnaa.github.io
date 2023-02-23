@@ -6,4 +6,4 @@ Purpose of this website is to document ITP coursework and personal projects.
 
 Currently unavailable for mobile.
 
-Code sourced from CodeGrid, Curzr, and Splitting.js Circular Text example
+[code sourced from CodeGrid, Curzr, and Bootstrap examples]
