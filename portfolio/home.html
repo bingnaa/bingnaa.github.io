@@ -329,7 +329,7 @@ gsap
     delay: 1,
     duration: 0.85,
     xPercent: 25,
-    yPercent: 100,
+    yPercent: 125,
     stagger: 0.095,
     skewY: gsap.utils.wrap([-8, 8]),
     ease: "expo.out",
@@ -352,7 +352,7 @@ menuItems.forEach((item) => {
     gsap.set(imageWrapper, {
       scale: 0.8,
       xPercent: 25,
-      yPercent: 20,
+      yPercent: 50,
       rotation: -15,
     });
     gsap.to(imageWrapper, { opacity: 1, scale: 1, yPercent: 0, rotation: 0 });
@@ -361,7 +361,7 @@ menuItems.forEach((item) => {
   const onMouseLeave = () => {
     gsap.to(imageWrapper, {
       opacity: 0,
-      yPercent: -20,
+      yPercent: -50,
       xPercent: 25,
       scale: 0.8,
       rotation: -15,
@@ -374,7 +374,7 @@ menuItems.forEach((item) => {
     gsap.to(imageWrapper, {
       duration: 1.25,
       x: Math.abs(x - itemBounds.left) - imageWrapperBounds.width / 1.55,
-      y: Math.abs(y - ((itemBounds.top/4)*3)) - imageWrapperBounds.height - yOffset,
+      y: Math.abs(y - itemBounds.top) - imageWrapperBounds.height / 2 - yOffset,
     });
   };
 
