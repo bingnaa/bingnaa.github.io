@@ -207,37 +207,3 @@ p{
 .menu__item:hover .menu__item-image_wrapper {
   z-index: -2;
 }
-
-.circle-me {
-  font-family: bd-supper, sans-serif;
-  font-size: 8vw;
-  letter-spacing: 0.1em;
-  color: black;
-  position: relative;
-  font-size: calc( 150vmin / var(--char-total) );
-  width: 65%;
-  // padding-top: 65%;
-  height: 0px;
-  margin: auto;
-
-  --speed: calc( 0.4s * var(--char-total) );
-  animation: spin 8s linear infinite;
-  animation-duration: var(--speed);
-
-  @keyframes spin {
-    100% { transform: rotate(360deg); }
-  }
-
-  .char {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    line-height: 1;
-    text-align: center;
-    width: 1em;
-
-    transform: 
-      rotate( calc( 160deg * var(--distance-sine) ) )
-      translateY( calc( -0.2em * var(--char-total) ) );
-  }
-}
