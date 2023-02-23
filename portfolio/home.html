@@ -178,8 +178,11 @@
 	</div>
 	</div>
 	
-<!-- 	<footer class="footer footer-transparent">
-	 </footer> -->
+	<footer class="footer footer-transparent">
+		<section class = "direct">
+			<div class="circle-me" data-splitting>contact me!</div>
+		</section>
+	 </footer>
 	
 	
 	<div class="curzr" hidden></div>
@@ -373,6 +376,15 @@ menuItems.forEach((item) => {
     itemBounds = item.getBoundingClientRect();
   });
 });
+
+Splitting({
+  by: 'chars',
+  whitespace: true
+});
+
+document.querySelector('.direct').addEventListener('click', function(e) {
+    window.location.href = 'https://www.linkedin.com/in/briana-jones-753200154/';
+}, false);
 	</script>
 </body>
 </html>
