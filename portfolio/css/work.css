@@ -70,6 +70,11 @@ h6{
   padding: 45 px;
 }
 
+.custom{
+	color: #B494B3;
+	font-weight: 900;
+}
+
 .ba img{
   position: absolute;
   object-fit: cover;
