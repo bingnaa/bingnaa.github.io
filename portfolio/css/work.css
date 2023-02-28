@@ -71,7 +71,7 @@ h6{
 }
 
 .custom{
-	color: #B494B3;
+	color: ##000000;
 	font-weight: 900;
 }
 
@@ -113,10 +113,6 @@ p{
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #2a3159;
-}
-
-.highlight{
-	color: #B494B3;
 }
 
 #warning{
