@@ -212,6 +212,10 @@ p{
   padding: 50px;
 }
 
+.env{
+  width: 45%;
+}
+
 a{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
