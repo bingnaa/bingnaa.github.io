@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>imperfect</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <!-- Splitting  -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" /> -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" /> -->
+<!-- 	<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script> -->
+ <!-- Animation  -->	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- ScrollOut -->
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+	
+	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
+	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+<!-- 	<link rel="stylesheet" media="screen" href="css/style.css"> -->
+	<link rel="stylesheet" href="css/work.css">
+</head>
+<body onload="document.body.style.opacity='1'">
+<!-- 	//button here -->
+	<section class = "ba">
+		<a href="home.html"> <img src="img/back-arrow2.png" id = "arrow"> </a>
+		<a href="home.html"> <img src = "img/back-arrow1.png" id = "flower"> </a>
+	</section>
+<!-- 	//button here -->
+	<h2>galdrastrákur</h2>
+<!-- 	<h4>collaborator:</h4> -->
+	<h3>made with unity and aseprite</h3>
+  
+	<div class="flex-box">
+		<iframe src="https://player.vimeo.com/video/780206973?h=94f0e8a4ab&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1000" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="imperfect with courage"></iframe>
+	</div>
+	
+	<div class="flex-box">
+		<a href = "https://wangbingnaa.itch.io/imperfect-with-courage">Playable version.</a> <a href="https://wangbingnaa.itch.io/imperfect-with-courage"> <img src="img/back-arrow2.png" id = "arrow2"> </a>
+	</div>
+	
+	<p data-scroll id = "warning"> Video was recorded in Unity game preview; consequently, lighting and rendering quality appears different in the playable version of the experience.</p>
+	
+	<div class="flex-container">
+		<p data-scroll class = "item">galdrastrákur is a "miniature" horror game where player must solve puzzles during the day so that they can escape “the witch” at night</p>
+ 	 </div>
+   <div class="flex-container">
+		<p data-scroll class = "item">Based on Icelandic Folk Song “Bium bium bambalo,” it's setting and style is based on Icelandic</p>
+ 	 </div>
+   
+   <div class="flex-container">
+		<p data-scroll class = "item">Based on Icelandic Folk Song “Bium bium bambalo,” it's setting and style is based on Icelandic</p>
+ 	 </div>
+	
+	<div class="flex-box">
+		<img src = "img/project 03/Untitled_Artwork 20.png" id = "ogbox" data-scroll>
+	</div>
+	
+	<div class="flex-container">
+		<p data-scroll class = "item">My initial idea for the Cornell box was actually based on my childhood, specifically with elements like the "piano" and the "deer." However, I wanted the project to have more of a "storyline" rather than just being an interactive experience. It ended up becoming a hybrid of the initial concept and the Courage the Cowardly Dog episode. Consequently, the project ended up taking an almost surrealist tone. I specifically wanted to play with the idea of a "TV Box" when considering what exactly a Cornell box is.</p>
+	</div>
+	
+	<div class="flex-container">
+		<h5 data-scroll>Interaction Wireframe</h5>
+	</div>
+	
+	<div class="flex-box">
+		<img src = "img/project 03/Cornell Box- Storyboard.png" id = "storyb" data-scroll>
+	</div>
+	
+	<div class="flex-container">
+    		<p data-scroll class = "item">I made the 2D models and their animations in aseprite, and all settings were assembled in Unity and coded with Jetbrains Rider.</p>
+ 		<p data-scroll class = "item">Interactions are triggered through clicking with the mouse. Player mode is through first-person.</p>
+	</div>
+	
+	<script> 
+	document.getElementById("arrow").onmouseover  = function() {mouseOver()};
+	document.getElementById("arrow").onmouseout = function() {mouseOut()};
+	document.getElementById("flower").onmouseover  = function() {mouseOver()};
+	document.getElementById("flower").onmouseout = function() {mouseOut()};
+		
+	function mouseOver(){
+		document.getElementById("flower").classList.add('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	function mouseOut(){
+		document.getElementById("flower").classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+		
+	if(navigator.userAgentData.mobile == false){
+		ScrollOut();
+	}
+	</script>
+</body>
