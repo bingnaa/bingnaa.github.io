@@ -1,0 +1,30 @@
+body {
+  background: url("bee.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-family: "Courier New", monospace;
+}
+
+.flex-container{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Copperplate", fantasy;
+}
