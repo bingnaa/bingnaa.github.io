@@ -1,4 +1,4 @@
-#bingnaa.github.io/portfolio/home.html
+#bingnaa.github.io/portfolioOLD/home.html
 
 Code for Briana Jones' portfolio. Assets were created in Adobe suite.
 
