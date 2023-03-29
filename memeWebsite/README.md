@@ -1,5 +1,8 @@
 # wk1 documentation
 
+bingnaa.github.io/memeWebsite/HelloWorld.html
+to run
+
 Had issues initializing setting up git in terminal because of instructions: had to troubleshoot auth token, but it messed with some terminal stuff that I had set up for my other job so I just used Github Desktop.
 
 Was inspired by my other class Blessed?Blursed/Cursed. Decided to make a website based on the bee movie meme. Used a html <p> tag converter so I could make the ridiculously long script fit. Used a flex container and audio player, but didn't spend too much time on polishing it because it's more of a joke website than anything.
