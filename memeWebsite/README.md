@@ -1,6 +1,7 @@
 # wk1 documentation
 
 bingnaa.github.io/memeWebsite/HelloWorld.html
+
 to run
 
 Had issues initializing setting up git in terminal because of instructions: had to troubleshoot auth token, but it messed with some terminal stuff that I had set up for my other job so I just used Github Desktop.
