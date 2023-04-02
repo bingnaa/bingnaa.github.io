@@ -85,15 +85,16 @@ h6{
 
 .marquee {
  padding: 10px;
+ width: 80%;
  height: 100px;	
  overflow: hidden;
  position: relative;
- border: 5px solid black;
+ border: 10px solid white;
+ margin: auto;
 }
 .marquee p {
  font-family: 'Playfair Display', serif;
  position: absolute;
- width: 80%;
  height: 100%;
  font-size: 24px;
  color: white;
