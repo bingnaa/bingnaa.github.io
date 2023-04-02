@@ -58,3 +58,35 @@ body{
   visibility: hidden;
   color: black;
 }
+
+.marquee {
+ height: 120px;	
+ overflow: hidden;
+ position: relative;
+ border: 5px solid black;
+}
+.marquee p {
+ font-family: bd-supper, sans-serif;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ font-size: 64px;
+ color: #B494B3;
+ margin: 0;
+ line-height: 100px;
+ text-align: left;
+
+ transform:translateX(100%);
+
+ @keyframes scroll-right {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+}
