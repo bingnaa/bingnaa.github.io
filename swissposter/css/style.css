@@ -17,11 +17,7 @@ body{
   display: flex;
 }
 
-.flex-container {
-  display: flex;
-}
-
-.flex-container > div {
+.div {
   text-align: center;
   align-items: center;
   align-content: center;
