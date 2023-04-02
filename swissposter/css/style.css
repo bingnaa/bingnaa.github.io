@@ -19,6 +19,23 @@ body{
   align-items: center;
 }
 
+.para: before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  z-index: 10000;
+}
+
+.para: after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  z-index: 10000;
+}
+
 .para img{
   position: absolute;
   top: 0;
