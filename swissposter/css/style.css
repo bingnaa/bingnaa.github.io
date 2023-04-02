@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 
 *{
   margin: 0;
@@ -53,10 +55,32 @@ body{
   z-index: 1;
 }
 
-.head1{
-  display: none;
-  visibility: hidden;
-  color: black;
+h1{
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+}
+
+h3{
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  padding: 10px;
+}
+
+h4{
+  text-align: right;
+  font-family: 'Rubik', sans-serif;
+  padding: 10px;
+}
+h5{
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  padding: 10px;
+}
+
+h6{
+  text-align: right;
+  font-family: 'Rubik', sans-serif;
+  padding: 10px;
 }
 
 .marquee {
