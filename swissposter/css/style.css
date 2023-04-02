@@ -18,6 +18,15 @@ body{
   align-items: center;
 }
 
+.para img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
 #text{
   position: relative;
   color: #757C88;
