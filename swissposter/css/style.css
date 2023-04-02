@@ -7,7 +7,7 @@
 
 body{
   min-height: 100%;
-  background-color: black;
+  background-color: #757C88;
 }
 
 .para{
@@ -30,7 +30,7 @@ body{
 
 #text{
   position: relative;
-  color: #757C88;
+  color: white;
   font-size: 8em;
   font-family: 'Playfair Display', serif;
   z-index: 1;
