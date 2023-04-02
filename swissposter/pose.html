@@ -38,19 +38,41 @@
 		</nav> -->
 	</header>
 	
-	
-		      <!-- Google -->
-		      <a class="btn btn-primary" style="background-color: #dd4b39;" href="mailto:bwj224@nyu.edu" role="button"><i class="bi bi-google"></i
-		      <!-- Linkedin -->
-		      <a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com/in/briana-jones-753200154/" role="button"><i class="bi bi-linkedin"></i></a>
-		      <!-- Github -->
-		     <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com/bingnaa" role="button"><i class="bi bi-github"></i></a>
-		    <!-- Section: Social media -->
-		</div>
-	 </footer>
+	<section class = "para">
+		<img src = "img/parralax/layer1.png" id = "ocean">
+		<img src = "img/parralax/layer2.png" id = "jellyfish">
+		<img src = "img/parralax/layer3.png" id = "smoosh">
+		<img src = "img/parralax/layer4.png" id = "squid">
+		<img src = "img/parralax/layer5png" id = "clownfish">
+		<h2 id = "text">f i s h</h2>
+	</section>
 		
 	<script>
-	
+	var ocean = document.getElementById("ocean");
+	var jelly = document.getElementById("jellyfish");
+	var squi = document.getElementById("squid");
+	var clo = document.getElementById("clownfish");
+	var smo = document.getElementById("smoosh");
+	var tex = document.getElementById("text");
+		
+	window.addEventListener('scroll', function(){
+		var value = window.scrollY;
+		
+// 		gro.style.top = -value*.15 + 'px';
+// 		pet.style.top = -value*.3 + 'px';
+// 		pet.style.left = value*.25 + 'px';
+// 		steaam.style.top = value*.15 + 'px';
+// 		blo.style.top = value*.1 + 'px';
+// 		blo.style.left = value*.1 + 'px';
+// 		tex.style.top = -value*.05 + 'px';
+		
+		ocean.style.top = -value*.15 + 'px';
+		jelly.style.top = -value*.3 + 'px';
+		squi.style.top = value*.15 + 'px';
+		clo.style.top = value*.1 + 'px';
+		smo.style.top = value*.1 + 'px';
+		tex.style.top = -value*.1 + 'px';
+	});
 	</script>
 </body>
 </html>
