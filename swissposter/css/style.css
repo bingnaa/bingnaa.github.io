@@ -19,12 +19,9 @@ body{
 
 .flex-container {
   display: flex;
-  padding: 50px;
 }
 
 .flex-container > div {
-  width: 500px;
-  margin: 10px;
   text-align: center;
   align-items: center;
   align-content: center;
