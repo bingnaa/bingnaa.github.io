@@ -84,18 +84,19 @@ h6{
 }
 
 .marquee {
- height: 120px;	
+ padding: 10px;
+ height: 100px;	
  overflow: hidden;
  position: relative;
  border: 5px solid black;
 }
 .marquee p {
- font-family: bd-supper, sans-serif;
+ font-family: 'Playfair Display', serif;
  position: absolute;
- width: 100%;
+ width: 80%;
  height: 100%;
- font-size: 64px;
- color: #B494B3;
+ font-size: 24px;
+ color: white;
  margin: 0;
  line-height: 100px;
  text-align: left;
