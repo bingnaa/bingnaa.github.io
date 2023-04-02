@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -48,14 +50,14 @@ body{
 
 #text{
   position: relative;
-  color: #B494B3;
+  color: #757C88;
   font-size: 8em;
-  font-family: 'Gravitas One', sans-serif;
+  font-family: 'Playfair Display', serif;
   z-index: 1;
 }
 
 .head1{
   display: none;
   visibility: hidden;
-  color: #335e7d;
+  color: black;
 }
