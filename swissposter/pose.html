@@ -61,8 +61,6 @@
 				<h4> fish </h4>
 				<h5> new </h5>
 				<h6> sea </h6>
-				<img src = "img/deer.png" id = "deer">
-				<h1> oh deer. </h1>
 			</div>
 		</div>
 	</div>
@@ -98,6 +96,16 @@
 	});
 		
 	var audio = new Audio("GatewayOfMind_cursed_VHS LOGOS - SONY.mp3");
+		
+	document.getElementById("hoverI").onmouseover  = function() {mouseOver()};
+	document.getElementById("hoverI").onmouseout = function() {mouseOut()};
+		
+	function mouseOver() {
+		audio.play();
+	}
+	function mouseOut() {
+		audio.pause();
+	}
 			     
 	</script>
 </body>
