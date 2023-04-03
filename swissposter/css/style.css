@@ -95,7 +95,7 @@ h6{
 
 .flex-box{
   border-radius: 25px;
-  background: #c9e9f0;
+  background: black;
 	
   display: flex;
   flex-direction: row;
@@ -111,6 +111,7 @@ h6{
 
 .item{
   padding: 20px;
+  color: white;
 }
 
 .tt{
