@@ -93,6 +93,33 @@ h6{
   width: 100%;
 }
 
+.flex-box{
+  border-radius: 25px;
+  background: #c9e9f0;
+	
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: stretch;
+  align-content: start;
+  justify-content: start;
+  margin: 10px;
+  width: 45%;
+  
+/*   gap: 100px; */
+}
+
+.item{
+  padding: 20px;
+}
+
+.tt{
+  text-align: left;
+  width: 25%;
+  position: relative;
+  left: -80px;
+}
+
 .marquee {
  padding: 10px;
  width: 80%;
