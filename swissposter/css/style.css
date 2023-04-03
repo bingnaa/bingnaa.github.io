@@ -58,29 +58,39 @@ body{
 h1{
   text-align: left;
   font-family: 'Rubik', sans-serif;
+  color: white;
+  opacity: 30%;
+}
+
+h1: hover{
+  opacity: 100%;
 }
 
 h3{
   text-align: left;
   font-family: 'Rubik', sans-serif;
   padding: 10px;
+  color: #1F51FF;
 }
 
 h4{
   text-align: right;
   font-family: 'Rubik', sans-serif;
   padding: 10px;
+  color: #3F00FF;
 }
 h5{
   text-align: left;
   font-family: 'Rubik', sans-serif;
   padding: 10px;
+  color: #1434A4;
 }
 
 h6{
   text-align: right;
   font-family: 'Rubik', sans-serif;
   padding: 10px;
+  color: #00008B;
 }
 
 .marquee {
