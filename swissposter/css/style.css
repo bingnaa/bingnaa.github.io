@@ -89,6 +89,10 @@ h6{
   color: #00008B;
 }
 
+#hoverI{
+  width: 50%;
+}
+
 .marquee {
  padding: 10px;
  width: 80%;
