@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LegendDex</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" href="CSS/pkb.css">
+</head>
+<body>
+	<h1>LegendDex</h1>
+	<header>
+		<nav class="navbar navbar-expand-sm bg-light">
+		  <div class="container-fluid">
+		    <ul class="navbar-nav">
+			      <li class="nav-item"><a href="pkmn1.html">Pokemon</a></li>
+			      <li class="nav-item"><a href="pkb1.html">Pokeball</a></li>
+			      <li class="nav-item"><a href="about.html">About</a></li>
+		    </ul>
+		  </div>
+		</nav>
+	</header>
+
+	<h2>Window to Pokeballs</h2>
+	<p>Drag and drop Pokeballs on the Pokemon to learn more.</p>
+
+	<div id="container">
+		<img src="img/balls/Poke_Ball.png" id="pb" class = "ball">
+		<img src="img/balls/Great_Ball.png" id="gb" class = "ball">
+		<img src="img/balls/Ultra_Ball.png" id="ub" class = "ball">
+		<img src="img/balls/Master_Ball.png" id="mb" class = "ball">
+		<img src="img/balls/Luxury_Ball.png" id="lb" class = "ball">
+		<img src="img/balls/Heal_Ball.png" id="hb" class = "ball">
+		<img src="img/balls/Timer_Ball.png" id="tb" class = "ball">
+		<img src="img/balls/Repeat_Ball.png" id="rb" class = "ball">
+		<img src="img/balls/Quick_Ball.png" id="qb" class = "ball">
+		<img src="img/balls/Nest_Ball.png" id="nb" class = "ball">
+		<img src="img/balls/Dusk_Ball.png" id="dub" class = "ball">
+		<img src="img/balls/Dive_Ball.png" id="dib" class = "ball">
+		<img src="img/mimi.png" id = "poke">
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenLite.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/utils/Draggable.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/plugins/CSSPlugin.min.js"></script>
+	<link rel="stylesheet" href="pkb.js">
+ 	 <script  type="text/javascript">
+		// set initial drag position
+		TweenLite.set("#poke",{x:125,y:125});
+
+		// Create Draggable instance
+		Draggable.create("#pb", {
+			bounds:"#container",
+		   	type:"x,y",
+			edgeResistance:0.5,
+			onDragEnd:function(e) {
+		        if (this.hitTest("#poke")) {
+		            alert("A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.");
+		            TweenLite.set("#pb",{x:0,y:0});
+		        }
+		    }
+		});
+
+		Draggable.create("#gb", {
+			bounds:"#container",
+		   	type:"x,y",
+			edgeResistance:0.5,
+			onDragEnd:function(e) {
+		        if (this.hitTest("#poke")) {
+		            alert("A good, high-performance Poké Ball that provides a higher Pokémon catch rate than a standard Poké Ball.");
+		            TweenLite.set("#gb",{x:0,y:0});
+		        }
+		    }
+		});
+
+		Draggable.create("#ub", {
+			bounds:"#container",
+		   	type:"x,y",
+			edgeResistance:0.5,
+			onDragEnd:function(e) {
+		        if (this.hitTest("#poke")) {
+		            alert("An ultra-high-performance Poké Ball that provides a higher success rate for catching Pokémon than a Great Ball.");
+		            TweenLite.set("#ub",{x:0,y:0});
+		        }
+		    }
+		});
+
+		Draggable.create("#mb", {
+			bounds:"#container",
+		   	type:"x,y",
+			edgeResistance:0.5,
+			onDragEnd:function(e) {
+		        if (this.hitTest("#poke")) {
+		            alert("Never fails.");
+		            TweenLite.set("#mb",{x:0,y:0});
+		        }
+		    }
+		});
+
+		Draggable.create("#lb", {
+			bounds:"#container",
+		   	type:"x,y",
+			edgeResistance:0.5,
+			onDragEnd:function(e) {
+		        if (this.hitTest("#poke")) {
+		            alert("A cozy Ball that makes Pokémon more friendly.");
+		            TweenLite.set("#lb",{x:0,y:0});
+		        }
+		    }
+		});
+
+		Draggable.create("#hb", {
+			bounds:"#container",
+		   	type:"x,y",
+			edgeResistance:0.5,
+			onDragEnd:function(e) {
+		        if (this.hitTest("#poke")) {
+		            alert("A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.");
+		            TweenLite.set("#hb",{x:0,y:0});
+		        }
+		    }
+		});
+
+		Draggable.create("#tb", {
+			bounds:"#container",
+		   	type:"x,y",
+			edgeResistance:0.5,
+			onDragEnd:function(e) {
+		        if (this.hitTest("#poke")) {
+		            alert("A somewhat different Poké Ball that becomes progressively more effective the more turns that are taken in battle.");
+		            TweenLite.set("#tb",{x:0,y:0});
+		        }
+		    }
+		});
+
+		Draggable.create("#rb", {
+			bounds:"#container",
+		   	type:"x,y",
+			edgeResistance:0.5,
+			onDragEnd:function(e) {
+		        if (this.hitTest("#poke")) {
+		            alert("A somewhat different Poké Ball that works especially well on a Pokémon species that has been caught before.");
+		            TweenLite.set("#rb",{x:0,y:0});
+		        }
+		    }
+		});
+
+		Draggable.create("#qb", {
+			bounds:"#container",
+		   	type:"x,y",
+			edgeResistance:0.5,
+			onDragEnd:function(e) {
+		        if (this.hitTest("#poke")) {
+		            alert("A somewhat different Poké Ball that provides a better catch rate if it is used at the start of a wild encounter.");
+		            TweenLite.set("#qb",{x:0,y:0});
+		        }
+		    }
+		});
+
+		Draggable.create("#nb", {
+			bounds:"#container",
+		   	type:"x,y",
+			edgeResistance:0.5,
+			onDragEnd:function(e) {
+		        if (this.hitTest("#poke")) {
+		            alert("A Ball that works better on weaker Pokémon.");
+		            TweenLite.set("#nb",{x:0,y:0});
+		        }
+		    }
+		});
+
+		Draggable.create("#dub", {
+			bounds:"#container",
+		   	type:"x,y",
+			edgeResistance:0.5,
+			onDragEnd:function(e) {
+		        if (this.hitTest("#poke")) {
+		            alert("A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places like caves.");
+		            TweenLite.set("#dub",{x:0,y:0});
+		        }
+		    }
+		});
+
+		Draggable.create("#dib", {
+			bounds:"#container",
+		   	type:"x,y",
+			edgeResistance:0.5,
+			onDragEnd:function(e) {
+		        if (this.hitTest("#poke")) {
+		            alert("A Ball that works better on Pokémon on the ocean floor.");
+		            TweenLite.set("#dib",{x:0,y:0});
+		        }
+		    }
+		});
+	</script>
+
+	<footer class="footer">
+      <div class="container">
+        &copy; PKMN FAN CLUB
+      </div>
+    </footer>
+</body>
+</html>

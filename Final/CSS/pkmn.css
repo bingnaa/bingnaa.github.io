@@ -1,0 +1,30 @@
+body {
+    position: relative;
+}
+
+.affix {
+    top: 20px;
+    z-index: 9999 !important;
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    left: 0;
+    font-size: 16px;
+}
+
+figure{
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+
+.rel-img{
+	  width: 300px;
+	  height: 100px;
+	  word-wrap: break-word;
+}
+
+
+#leftCol a{
+    font-size: 18px;
+}
