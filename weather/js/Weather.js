@@ -31,44 +31,6 @@ class Weather {
     })
   }
 
-  // /**
-  //  * initialize the form behavior
-  //  */
-  // initializeForm(){
-  //   const $form = document.querySelector('.form__container');
-  //   $form.addEventListener('submit', this.submitForm())
-  // }
-
-  // /**
-  //  * Submit the form
-  //  */
-  // submitForm(){
-  //   return async (e) => {
-  //     e.preventDefault();
-  //     this.config.LOCATION_NAME = e.target.location.value;
-  //     await this.getCurrentWeather();
-  //     this.renderCurrentWeather(this.data.current)
-  //   }
-  // }
-
-  // /**
-  //  * initialize the form behavior
-  //  */
-  // initializeForm(){
-  //   const $form = document.querySelector('.form__container');
-  //   $form.addEventListener('submit', this.submitForm.bind(this))
-  // }
-
-  // async submitForm(e){
-  //   e.preventDefault();
-  //   this.config.LOCATION_NAME = e.target.location.value;
-  //   await this.getCurrentWeather();
-  //   this.renderCurrentWeather(this.data.current)
-  // }
-
-  /**
-   * GET current weather
-   */
   async getCurrentWeather(){
     try{
       const {CURRENT_WEATHER_URL,LOCATION_NAME,UNITS, API_KEY} = this.config;
@@ -98,16 +60,25 @@ class Weather {
     
     const el = `
     <section class="current">
-      <p class="current__location">${location}</p>
-      <p class="current__feels">Feels like ${currentFeelsLikeTemp}°</p>
-      <h2 class="current__temperature">${currentTemp}°</h2>
-      <p class="current__description">${desc}</p>
+      <section class="curAlign">
+        <p class="current__description">${desc}</p>
+        <p class="current__location">${location}</p>
+      </section>
+    </section>`
+
+    const el2 =`
+    <section class = "temp">
+        <h2 class="current__temperature">${currentTemp}°</h2>
+        <p class="current__feels">Feels like ${currentFeelsLikeTemp}°</p>
     </section>
     `
     
     const $currentEl = this.createElementFromText(el);
+    const $tempEl = this.createElementFromText(el2);
     const $current = document.querySelector(".current");
+    const $temp = document.querySelector(".temp");
     $current.replaceWith($currentEl)
+    $temp.replaceWith($tempEl)
   }
 
   async update(){

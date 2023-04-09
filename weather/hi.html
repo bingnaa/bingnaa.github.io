@@ -8,6 +8,10 @@
     <title>What's the Weather?</title>
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="preload" href="font/Warming-ExtraBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="font/Warming-ExtraBoldItalic.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="font/Warming-Regular.ttf" as="font" type="font/ttf" crossorigin>
+
   </head>
 
   <body>
@@ -15,13 +19,15 @@
       <header class="header">
         <!-- <h1 class="header__title">NowCast</h1> -->
       </header>
+      <!-- .temp will update dynamically -->
+      <section class="temp"></section>
+      <!-- .current will update dynamically -->
+      <section class="current"></section>
       <main class="main">
-        <!-- .current will update dynamically -->
-        <section class="current"></section>
         <!-- the form -->
         <section class="form__section">
           <form class="form__container">
-            <input class="form__input form__input--text" type="text" placeholder="brooklyn, ny" value="Brookyln,ny" name="location">
+            <input class="form__input form__input--text" type="text" placeholder="brooklyn, ny" value="brooklyn,ny" name="location">
             <input class="form__input form__input--submit" type="submit" value="→" name="submit">
           </form>
         </section>
