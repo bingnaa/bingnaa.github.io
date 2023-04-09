@@ -12,29 +12,30 @@
     <link rel="preload" href="font/Warming-ExtraBoldItalic.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="preload" href="font/Warming-Regular.ttf" as="font" type="font/ttf" crossorigin>
 
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
   </head>
 
   <body>
-    <div id="app">
-      <header class="header">
-        <!-- <h1 class="header__title">NowCast</h1> -->
-      </header>
-      <!-- .temp will update dynamically -->
-      <section class="temp"></section>
-      <!-- .current will update dynamically -->
-      <section class="current"></section>
-      <main class="main">
-        <!-- the form -->
-        <section class="form__section">
-          <form class="form__container">
-            <input class="form__input form__input--text" type="text" placeholder="brooklyn, ny" value="brooklyn,ny" name="location">
-            <input class="form__input form__input--submit" type="submit" value="→" name="submit">
-          </form>
-        </section>
-      </main>
-      <footer class="footer"></footer>
-    </div>
-    <script src="js/Weather.js"></script>
-    <script src="js/main.js"></script>
+    <header class="header">
+      <!-- <h1 class="header__title">NowCast</h1> -->
+    </header>
+    <!-- .temp will update dynamically -->
+    <section class="temp"></section>
+    <!-- .current will update dynamically -->
+    <section class="current"></section>
+    <main class="main">
+      <!-- the form -->
+      <section class="form__section">
+        <form class="form__container">
+          <input class="form__input form__input--text" type="text" placeholder="brooklyn, ny" value="brooklyn,ny" name="location">
+          <input class="form__input form__input--submit" type="submit" value="→" name="submit">
+        </form>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  <script src="js/Weather.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+  </script>
   </body>
 </html>
