@@ -1,3 +1,3 @@
-#for github! wip.
+#wip.
 
 bingnaa.github.io/githubcopilot/hi.html
