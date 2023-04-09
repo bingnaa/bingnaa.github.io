@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>What's the Weather?</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preload" href="font/Warming-ExtraBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="font/Warming-ExtraBoldItalic.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="font/Warming-Regular.ttf" as="font" type="font/ttf" crossorigin>
+
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header__title">github co-pilot</h1>
+      <h1 class="subheader__title">your AI-pair programmer</h1>
+    </header>
+
+    <section class=""></section>
+
+    <main class="main">
+      <div class="triangle">
+        <p>prompt engineering</p>
+        <p>predictable patterns</p>
+        <p>good coding practices</p>
+      </div>    
+    </main>
+    <footer class="footer"></footer>
+    <script>
+      const triangle = document.querySelector(".triangle");
+      const triangleRect = triangle.getBoundingClientRect();
+      const triangleCenter = {
+        x: triangleRect.left + triangleRect.width / 2,
+        y: triangleRect.top + triangleRect.height / 2
+      };
+      const mousePosition = { x: 0, y: 0 };
+
+      function handleMouseMove(event) {
+        mousePosition.x = event.clientX - triangleCenter.x;
+        mousePosition.y = event.clientY - triangleCenter.y;
+        const moveAmount = 3;
+        triangle.style.transform = `rotateY(${-mousePosition.x / moveAmount}deg)`;
+        <!-- rotateX(${mousePosition.y / moveAmount}deg -->
+      }
+
+      document.addEventListener("mousemove", handleMouseMove);
+      </script>
+  </body>
+</html>
