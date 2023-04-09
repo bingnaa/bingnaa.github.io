@@ -27,8 +27,8 @@ body{
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-header{
-  background-image: linear-gradient(#EAFDFC 50%, black 50%);
+body{
+  background-image: linear-gradient(black 30%, white 70%);
 }
 
 .triangle {
@@ -54,6 +54,7 @@ header{
   font-family: 'Warming ExtBd';
   font-weight: bold;
   font-style: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .triangle p:nth-child(1) {
