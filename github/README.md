@@ -1,3 +1,3 @@
 #wip.
 
-bingnaa.github.io/githubcopilot/hi.html
+bingnaa.github.io/github/hi.html
