@@ -28,7 +28,9 @@ body{
 }
 
 body{
-  background-image: linear-gradient(black 30%, white 70%);
+  background-image: linear-gradient(black 30%, white 70%), url('img/stars.jpeg');
+  /* background-image: linear-gradient(to bottom, black, white),
+  url('img/stars.jpeg'); */
 }
 
 .triangle {
