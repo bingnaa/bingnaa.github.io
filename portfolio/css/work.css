@@ -213,7 +213,7 @@ p{
 }
 
 .mp{
-  width: 30%;
+  width: 25%;
 }
 
 .env{
@@ -222,11 +222,11 @@ p{
 }
 
 a{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
-	color: #B0C252;
-	font-weight: 500;
-	line-height: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #B0C252;
+  font-weight: 500;
+  line-height: 18px;
 }
 
 body{ 
