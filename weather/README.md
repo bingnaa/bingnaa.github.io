@@ -9,4 +9,5 @@ Prototype figma file for what I wanted to design: https://www.figma.com/file/U1M
 If expanded, I would want to make it so I had a p5.js sketch for each weather setting.
 
 Rain sketch: bingnaa.github.io/weather/rain/
+
 Sun sketch: bingnaa.github.io/weather/sun/
