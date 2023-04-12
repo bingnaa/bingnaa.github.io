@@ -11,4 +11,4 @@ Websites constructed mainly through HTML/CSS/javascript.
 [Work in progress](https://bingnaa.github.io/github/hi.html), but this is CSS/GSAP animation practice.
 + [source code](https://github.com/bingnaa/bingnaa.github.io/tree/main/github)
 
-[Work in progress](https://github.com/bingnaa/bingnaa.github.io/tree/main/AR), building a website that gets realtime data from Unity AR and visualizes it. (WIP)
+[Work in progress](https://github.com/bingnaa/bingnaa.github.io/tree/main/AR), building a website that gets realtime data from a Unity AR andriod app and visualizes it. (WIP)
