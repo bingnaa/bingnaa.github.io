@@ -1,4 +1,4 @@
-#wk3 assignment: dynamic web, javascript API
+# wk3 assignment: dynamic web, javascript API
 
 https://bingnaa.github.io/weather/hi.html
 
