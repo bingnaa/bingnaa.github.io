@@ -2,6 +2,28 @@ import * as THREE from 'three';
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import {FirstPersonControls} from 'three/addons/controls/FirstPersonControls.js';
 
+import { initializeApp } from 'firebase/app';
+//import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
+// import { getDatabase } from "firebase/database";
+import { getDatabase, ref, onValue} from "firebase/database";
+// Follow this pattern to import other Firebase services
+// import { } from 'firebase/<service>';
+
+// TODO: Replace the following with your app's Firebase project configuration
+const firebaseConfig = {
+	apiKey: "AIzaSyDHxvcBPO1-XmVm8JxOFghe5BAIZqU_Oxc",
+	authDomain: "plantar-22f2c.firebaseapp.com",
+	databaseURL: "https://plantar-22f2c-default-rtdb.firebaseio.com",
+	projectId: "plantar-22f2c",
+	storageBucket: "plantar-22f2c.appspot.com",
+	messagingSenderId: "220359011124",
+	appId: "1:220359011124:web:ae10179eee5858c85d5361",
+	measurementId: "G-M5EMC79RDC"
+  };
+
+const app = initializeApp(firebaseConfig);
+const database = getDatabase(app);
+
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 
 let camera, scene, renderer;
@@ -14,7 +36,7 @@ let controls, //firstPerson
 let geometry, texture, material, mesh ;
 
 	
-//cloud
+//cell
 let cloudGeo, cloudTexture, cloudMaterial ;
 
 
@@ -96,13 +118,13 @@ function init() {
 
 	
 	
-	//~~~~~ first person control ~~~~~~
-	// controls = new FirstPersonControls(camera, renderer.domElement);
-	// controls.movementSpeed = 500;
-	// controls.lookSpeed = 0.05;
+	// ~~~~~ first person control ~~~~~~
+	controls = new FirstPersonControls(camera, renderer.domElement);
+	controls.movementSpeed = 500;
+	controls.lookSpeed = 0.05;
 	
 	//~~~~~ orbitControl ~~~~~~
-	// control = new OrbitControls(camera, renderer.domElement);
+	control = new OrbitControls(camera, renderer.domElement);
 
 }
 
@@ -136,4 +158,20 @@ function onWindowResize(){
 
     renderer.setSize( window.innerWidth, window.innerHeight );
 
+}
+
+function GetDataCell(){
+	const cellCountRef = ref(database, 'Cell');
+	onValue(cellCountRef, (snapshot) => {
+		const data = snapshot.val();
+		updateStarCount(postElement, data);
+	});
+}
+
+function GetDataLayer(){
+	const layerCountRef = ref(database, 'Layer');
+	onValue(layerCountRef, (snapshot) => {
+		const data2 = snapshot.val();
+		updateStarCount(postElement, data2);
+	});
 }
