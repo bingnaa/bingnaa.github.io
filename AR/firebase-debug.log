@@ -1,0 +1,21 @@
+[debug] [2023-04-20T03:12:37.205Z] ----------------------------------------------------------------------
+[debug] [2023-04-20T03:12:37.207Z] Command:       /usr/local/bin/firebase /Users/wangbingna/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2023-04-20T03:12:37.207Z] CLI Version:   11.28.0
+[debug] [2023-04-20T03:12:37.207Z] Platform:      darwin
+[debug] [2023-04-20T03:12:37.207Z] Node Version:  v16.16.0
+[debug] [2023-04-20T03:12:37.218Z] Time:          Wed Apr 19 2023 23:12:37 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-04-20T03:12:37.218Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-20T03:12:37.225Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-20T03:12:37.226Z] > authorizing via signed-in user (bwj224@nyu.edu)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/wangbingna/Documents/Firebase/AR
+
