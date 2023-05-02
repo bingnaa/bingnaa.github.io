@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>back to the roots</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+ <!-- Splitting  -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" /> -->
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" /> -->
+<!-- 	<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script> -->
+ <!-- Animation  -->	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- ScrollOut -->
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+	  
+	<link href="//fonts.cdnfonts.com/css/gravitas-one" rel="stylesheet">
+	<link href="//fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+<!-- 	<link rel="stylesheet" media="screen" href="css/style.css"> -->
+	<link rel="stylesheet" href="css/work.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="document.body.style.opacity='1'">
+<!-- 	//button here -->
+	<section class = "ba">
+		<a href="home.html"> <img src="img/back-arrow2.png" id = "arrow"> </a>
+		<a href="home.html"> <img src = "img/back-arrow1.png" id = "flower"> </a>
+	</section>
+<!-- 	//button here -->
+	<h2>Graphic Work</h2>
+	
+	<div id="gallery">
+		<div class="block"></div>
+	 </div>
+
+	<!-- <div class="flex-box">
+		<img src = "img/display/AR.png" id = "qrCode">
+	</div> -->
+	
+	<script> 
+	document.getElementById("arrow").onmouseover  = function() {mouseOver()};
+	document.getElementById("arrow").onmouseout = function() {mouseOut()};
+	document.getElementById("flower").onmouseover  = function() {mouseOver()};
+	document.getElementById("flower").onmouseout = function() {mouseOut()};
+
+	const gallery = document.getElementById("gallery");
+
+    window.onmousemove = (e) => {
+      const mouseX = e.clientX,
+        mouseY = e.clientY;
+
+      const xDecimal = mouseX / window.innerWidth,
+        yDecimal = mouseY / window.innerHeight;
+
+      const maxX = gallery.offsetWidth - window.innerWidth,
+        maxY = gallery.offsetHeight - window.innerHeight;
+
+      const panX = maxX * xDecimal * -1,
+        panY = maxY * yDecimal * -1;
+
+      gallery.animate(
+        {
+          transform: `translate(${panX}px, ${panY}px)`,
+        },
+        {
+          duration: 4000,
+          fill: "forwards",
+          easing: "ease",
+        }
+      );
+    };
+
+    const radius = 300,
+      maxScale = 3,
+      blocks = document.querySelectorAll(".block"),
+      radius2 = radius * radius,
+      container = document.querySelector("#gallery");
+
+    blocks.forEach((block) => {
+      let b = block.getBoundingClientRect();
+      (block.cx = b.left + b.width / 2 + window.pageXOffset),
+        (block.cy = b.top + b.height / 2 + window.pageYOffset);
+
+      block.tween = gsap
+        .to(block, { scale: maxScale, ease: "power1.in", paused: true })
+        .progress(1)
+        .progress(0);
+    });
+
+    document.addEventListener("mousemove", (e) => {
+      let i = blocks.length,
+        dx,
+        dy,
+        block;
+      while (i--) {
+        block = blocks[i];
+        dx = (block.cx - e.pageX) ** 2;
+        dy = (block.cy - e.pageY) ** 2;
+        block.tween.progress(1 - (dx + dy) / radius2);
+      }
+    });
+		
+	function mouseOver(){
+		document.getElementById("flower").classList.add('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	function mouseOut(){
+		document.getElementById("flower").classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
+	}
+	
+	if(navigator.userAgentData.mobile == false){
+		ScrollOut();
+	}
+	</script>
+</body>
+</html>
