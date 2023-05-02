@@ -26,6 +26,6 @@ body {
 .block:nth-child(1) {
   top: 0;
   left: 10%;
-  background: url(img/graphic/finalposter.png) no-repeat 50% 50%;
+  background: url('img/graphic/Poster.png') no-repeat 50% 50%;
   background-size: cover;
 }
