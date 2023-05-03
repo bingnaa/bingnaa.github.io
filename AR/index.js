@@ -128,8 +128,8 @@ function init() {
 	
 	//~~~~~~~~~~~~~~ Plane ~~~~~~~~~~~~~~
 
-	placeWidth = 1000;
-	placeHeight = 600;
+	placeWidth = 1200;
+	placeHeight = 800;
 
 	geometry = new THREE.PlaneGeometry(placeWidth, placeHeight);
 	geometry.rotateX(-Math.PI/2);
@@ -222,7 +222,7 @@ function render() {
 
 function DataUpdate(){
 	cellText = "Together, we've made " + cellCount +  " cells.";
-	layerText = 'Layer Count:' + layerCount;
+	layerText = "Together, we've made " + layerCount + " layers.";
 
 	console.log(cellText);
 
@@ -338,12 +338,11 @@ function updateText(newText) {
 
   if(!hideText){
 	// Draw the new text
-	context.fillText("What's a stem cell?", 10, 50);
-	context.fillText(newText, 0, 120);
+	//context.fillText("What's a stem cell?", 10, 50);
+	context.fillText(newText, 20, 120);
   }
   else{
-	context.fillText(cellDef1, 10, 50);
-   	context.fillText(cellDef2, 0, 120);
+	context.fillText(layerText, 20, 120);
   }
 
   // Update the texture

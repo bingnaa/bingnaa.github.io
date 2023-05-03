@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 html, body {
     position:  fixed;
     margin: 0;
@@ -12,6 +14,34 @@ canvas {
     z-index:-1
 }
 
+#stemDef{
+  position: absolute;
+  z-index: 3;
+  top: 60vh;
+  left: 5vh;
+  color: #cdffcd;
+  font-family: 'Open Sans', sans-serif;
+  width: 600px;
+  font-size: 13px;
+}
 
+#large{
+  font-size: 8vh;
+  color: #39ac73;
+  font-family: "swear-display", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+#sourceImage{
+  position: absolute;
+  z-index: 3;
+  top: 2vh;
+  left: 5vh;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  width: 600px;
+  font-size: 8px;
+}
 
 
