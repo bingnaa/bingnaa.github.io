@@ -304,7 +304,7 @@ setInterval(GenerateLayer, 20000);
 function setText(){
 	// Create a canvas element
 	canvas = document.createElement("canvas");
-	canvas.width = 700;
+	canvas.width = 800;
 	canvas.height = 200;
 
 	// Get the 2D context of the canvas
@@ -325,7 +325,7 @@ function setText(){
 	cMaterial = new THREE.MeshBasicMaterial({ map: cTexture, transparent: true, opacity: 1 });
 
 	// Create a plane geometry and mesh using the material
-	cGeometry = new THREE.PlaneGeometry(700, 200);
+	cGeometry = new THREE.PlaneGeometry(800, 200);
 	cMesh = new THREE.Mesh(cGeometry, cMaterial);
 	cMesh.rotateX(-Math.PI/2);
 	scene.add(cMesh);
