@@ -24,8 +24,10 @@ body {
 }
 
 .block:nth-child(1) {
-  top: 0;
+  top: 20%;
   left: 10%;
-  background: url('img/graphic/Poster.png') no-repeat 50% 50%;
+  background: url(img/graphic/poster.png) no-repeat 50% 50%;
+  height: 300px;
+  width: 200px;
   background-size: cover;
 }
