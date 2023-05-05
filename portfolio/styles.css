@@ -35,7 +35,7 @@ body {
 .block:nth-child(2) {
   top: 40%;
   left: 60%;
-  background: url("img/graphic/cellposter.png") no-repeat 50% 50%;
+  background: url('https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/graphic/cellposter.png?raw=true') no-repeat 50% 50%;
   height: 300px;
   width: 200px;
   background-size: cover;
