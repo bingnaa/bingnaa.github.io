@@ -36,6 +36,12 @@
     font-weight: 400;
 } */
 
+.contactM{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #335e7d;
+}
+
 body{
   background: url(https://github.com/bingnaa/bingnaa.github.io/blob/main/portfolio/img/flowerback.png?raw=true);
   background-size: 900px 800px;
