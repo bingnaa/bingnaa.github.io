@@ -9,7 +9,8 @@ Websites constructed mainly through HTML/CSS/javascript.
 [My old portfolio](https://bingnaa.github.io/portfolioOLD/concepts.html), which experimented with some parallax
 + [source code](https://github.com/bingnaa/bingnaa.github.io/tree/main/portfolioOLD)
 
-[My old portfolio] (https://bingnaa.github.io/portfolio/homeOLD.html), which implemented bootstrap and javascript/gsap animation
+[My old portfolio](https://bingnaa.github.io/portfolio/homeOLD.html), which implemented bootstrap and javascript/gsap animation
++ [source code](https://github.com/bingnaa/bingnaa.github.io/tree/main/portfolio)
 
 [Work in progress](https://bingnaa.github.io/github/hi.html), but this is CSS/GSAP animation practice.
 + [source code](https://github.com/bingnaa/bingnaa.github.io/tree/main/github)
