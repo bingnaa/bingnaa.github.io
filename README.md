@@ -12,4 +12,4 @@ Websites constructed mainly through HTML/CSS/javascript.
 [My old portfolio](https://bingnaa.github.io/portfolio/homeOLD.html), which implemented bootstrap and javascript/gsap animation
 + [source code](https://github.com/bingnaa/bingnaa.github.io/tree/main/portfolio)
 
-[Work in progress](https://github.com/bingnaa/bingnaa.github.io/tree/main/AR), building a website that gets realtime data from a Unity AR andriod app and visualizes it. (WIP)
+[Work in progress](https://github.com/bingnaa/bingnaa.github.io/tree/main/AR), building a website that gets realtime data from a Unity AR android app and visualizes it. (WIP)
